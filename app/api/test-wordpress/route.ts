@@ -89,19 +89,19 @@ export async function GET() {
       console.log(`❌ Domain error: ${domainResponse.status}`)
     }
     
-  } catch (error) {
-    console.error('❌ Connection test failed:', error.message)
+  } catch (error: any) {
+    console.error('❌ Connection test failed:', error?.message || 'Unknown error')
     
-    if (error.name === 'AbortError') {
+    if (error?.name === 'AbortError') {
       status.message = 'Connection timeout - server not responding'
-    } else if (error.message.includes('fetch failed')) {
+    } else if (error?.message?.includes('fetch failed')) {
       status.message = 'Domain not found or DNS not propagated'
-    } else if (error.message.includes('ENOTFOUND')) {
+    } else if (error?.message?.includes('ENOTFOUND')) {
       status.message = 'Domain does not exist or DNS resolution failed'
-    } else if (error.message.includes('ECONNREFUSED')) {
+    } else if (error?.message?.includes('ECONNREFUSED')) {
       status.message = 'Connection refused - server may be down'
     } else {
-      status.message = `Connection failed: ${error.message}`
+      status.message = `Connection failed: ${error?.message || 'Unknown error'}`
     }
   }
 

@@ -34,15 +34,15 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     }
   }
 
-  const title = isWordPress ? post.title?.rendered : post.title
+  const title = isWordPress ? (post.title as any)?.rendered : post.title
   const description = isWordPress 
-    ? (post.excerpt?.rendered ? extractPlainText(post.excerpt.rendered, 160) : '')
-    : post.excerpt
+    ? ((post.excerpt as any)?.rendered ? extractPlainText((post.excerpt as any).rendered, 160) : '')
+    : (post.excerpt as string)
 
   return {
     title: `${title} - IPTV Satlink Blog`,
     description: description,
-    keywords: (post.tags || []).join(', ') + ', IPTV Satlink, IPTV streaming',
+    keywords: ((post as any).tags || []).join(', ') + ', IPTV Satlink, IPTV streaming',
   }
 }
 
@@ -82,17 +82,17 @@ export default async function BlogPost({ params }: BlogPostPageProps) {
   }
 
   // Handle both WordPress and static post formats
-  const title = isWordPress ? post.title?.rendered : post.title
-  const content = isWordPress ? post.content?.rendered : post.content
+  const title = isWordPress ? (post.title as any)?.rendered : post.title
+  const content = isWordPress ? (post.content as any)?.rendered : post.content
   const excerpt = isWordPress 
-    ? (post.excerpt?.rendered ? extractPlainText(post.excerpt.rendered, 200) : '')
+    ? ((post.excerpt as any)?.rendered ? extractPlainText((post.excerpt as any).rendered, 200) : '')
     : post.excerpt
   const author = isWordPress 
-    ? post._embedded?.author?.[0]?.name || 'IPTV Satlink Team'
-    : post.author
+    ? (post as any)._embedded?.author?.[0]?.name || 'IPTV Satlink Team'
+    : (post as any).author
   const publishDate = isWordPress 
-    ? formatDate(post.date)
-    : staticFormatDate(post.date)
+    ? formatDate((post as any).date)
+    : staticFormatDate((post as any).date)
   const featuredImage = isWordPress 
     ? post._embedded?.['wp:featuredmedia']?.[0]?.source_url
     : post.image
