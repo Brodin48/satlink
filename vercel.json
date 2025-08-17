@@ -24,6 +24,11 @@
       "source": "/2016/12/uk-usa-portugal-spain-m3u-vlc-list-tv.html",
       "destination": "/blog",
       "permanent": true
+    },
+    {
+      "source": "/2016/10/usaitalynetherlands-m3u-iptv-sports.html",
+      "destination": "/pricing",
+      "permanent": true
     }
   ],
   "rewrites": [

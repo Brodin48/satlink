@@ -33,6 +33,11 @@ const nextConfig = {
         destination: '/blog',
         permanent: true,
       },
+      {
+        source: '/2016/10/usaitalynetherlands-m3u-iptv-sports.html',
+        destination: '/pricing',
+        permanent: true,
+      },
       // Search query redirect
       {
         source: '/',
