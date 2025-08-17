@@ -1,13 +1,13 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Download IpFoxTV Setup | Windows IPTV Player | SA-IPTV Compatible',
-  description: 'Download IpFoxTV Setup for Windows. Professional IPTV player fully compatible with SA-IPTV services. Free download with setup guide.',
-  keywords: 'IpFoxTV download, Windows IPTV player, SA-IPTV compatible, IPTV software, streaming player',
+  title: 'Download IpFoxTV Setup | Windows IPTV Player | IPTV Satlink Compatible',
+  description: 'Download IpFoxTV Setup for Windows. Professional IPTV player fully compatible with IPTV Satlink services. Free download with setup guide.',
+  keywords: 'IpFoxTV download, Windows IPTV player, IPTV Satlink compatible, IPTV software, streaming player',
   openGraph: {
     title: 'Download IpFoxTV Setup | Windows IPTV Player',
-    description: 'Professional IPTV player for Windows. Download IpFoxTV Setup and enjoy SA-IPTV on your PC.',
-    url: 'https://sa-iptv.io/apps/IpFoxTVSetup.exe',
+    description: 'Professional IPTV player for Windows. Download IpFoxTV Setup and enjoy IPTV Satlink on your PC.',
+    url: 'https://iptvsatlink.io/apps/IpFoxTVSetup.exe',
     type: 'website',
   },
 }
@@ -24,7 +24,7 @@ export default function IpFoxTVSetupPage() {
               IpFoxTV Setup
             </h1>
             <p className="text-xl text-green-100 mb-6">
-              Professional Windows IPTV Player - SA-IPTV Compatible
+              Professional Windows IPTV Player - IPTV Satlink Compatible
             </p>
             <div className="flex justify-center space-x-4 text-green-100">
               <div className="flex items-center">
@@ -79,7 +79,7 @@ export default function IpFoxTVSetupPage() {
                   <h4 className="font-semibold text-gray-800 mb-2">✅ What's Included</h4>
                   <ul className="text-gray-600 space-y-1 text-sm">
                     <li>• IpFoxTV Player Application</li>
-                    <li>• SA-IPTV Configuration Wizard</li>
+                    <li>• IPTV Satlink Configuration Wizard</li>
                     <li>• Automatic Codec Installation</li>
                     <li>• User Manual & Quick Start Guide</li>
                     <li>• Free Technical Support</li>
@@ -140,9 +140,9 @@ export default function IpFoxTVSetupPage() {
             </div>
 
             <div className="bg-white rounded-xl shadow-lg p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Need SA-IPTV Service?</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Need IPTV Satlink Service?</h3>
               <p className="text-gray-600 mb-4 text-sm">
-                IpFoxTV works best with SA-IPTV premium services. Get access to thousands of channels.
+                IpFoxTV works best with IPTV Satlink premium services. Get access to thousands of channels.
               </p>
               <a 
                 href="/pricing" 
@@ -161,7 +161,7 @@ export default function IpFoxTVSetupPage() {
           </h2>
           <p className="text-green-100 mb-6 max-w-2xl mx-auto">
             Get the best Windows IPTV experience with IpFoxTV. Download now and enjoy 
-            premium streaming with your SA-IPTV subscription.
+            premium streaming with your IPTV Satlink subscription.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
@@ -174,7 +174,7 @@ export default function IpFoxTVSetupPage() {
               href="/pricing" 
               className="bg-green-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-400 transition-colors"
             >
-              Get SA-IPTV Service
+              Get IPTV Satlink Service
             </a>
           </div>
         </div>

@@ -5,12 +5,12 @@
  * Run this after blog-sa.iptv.com becomes active
  */
 
-console.log('🔍 Checking blog.sa-iptv.com status...\n')
+console.log('🔍 Checking blog.iptvsatlink.com status...\n')
 
 // Test basic connectivity first
 const { exec } = require('child_process')
 
-exec('curl -s -o /dev/null -w "%{http_code}" https://blog.sa-iptv.com', (error, stdout, stderr) => {
+exec('curl -s -o /dev/null -w "%{http_code}" https://blog.iptvsatlink.com', (error, stdout, stderr) => {
   const statusCode = stdout.trim()
   
   if (error) {

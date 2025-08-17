@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server'
 // Function to fetch WordPress posts for sitemap
 async function getWordPressPosts() {
   try {
-    const response = await fetch('https://blog.sa-iptv.io/wp-json/wp/v2/posts?per_page=100', {
+    const response = await fetch('https://blog.iptvsatlink.io/wp-json/wp/v2/posts?per_page=100', {
       next: { revalidate: 86400 } // Revalidate daily
     })
     
@@ -25,7 +25,7 @@ export async function GET() {
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   ${posts.map((post: any) => `
   <url>
-    <loc>https://sa-iptv.io/blog/${post.slug}</loc>
+    <loc>https://iptvsatlink.io/blog/${post.slug}</loc>
     <lastmod>${new Date(post.modified).toISOString()}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

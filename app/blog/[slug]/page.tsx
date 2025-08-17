@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
 
   if (!post) {
     return {
-      title: 'Post Not Found - SA-IPTV Blog',
+      title: 'Post Not Found - IPTV Satlink Blog',
     }
   }
 
@@ -40,9 +40,9 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     : post.excerpt
 
   return {
-    title: `${title} - SA-IPTV Blog`,
+    title: `${title} - IPTV Satlink Blog`,
     description: description,
-    keywords: (post.tags || []).join(', ') + ', SA-IPTV, IPTV streaming',
+    keywords: (post.tags || []).join(', ') + ', IPTV Satlink, IPTV streaming',
   }
 }
 
@@ -88,7 +88,7 @@ export default async function BlogPost({ params }: BlogPostPageProps) {
     ? (post.excerpt?.rendered ? extractPlainText(post.excerpt.rendered, 200) : '')
     : post.excerpt
   const author = isWordPress 
-    ? post._embedded?.author?.[0]?.name || 'SA-IPTV Team'
+    ? post._embedded?.author?.[0]?.name || 'IPTV Satlink Team'
     : post.author
   const publishDate = isWordPress 
     ? formatDate(post.date)
@@ -198,13 +198,13 @@ export default async function BlogPost({ params }: BlogPostPageProps) {
           {/* CTA Section */}
           <div className="mt-12 sm:mt-16 p-6 sm:p-8 bg-gradient-to-r from-primary-600 to-primary-700 rounded-2xl text-white text-center">
             <h3 className="text-2xl sm:text-3xl font-bold mb-4">
-              Ready to Experience SA-IPTV?
+              Ready to Experience IPTV Satlink?
             </h3>
             <p className="text-lg mb-6 opacity-90">
               Join thousands of satisfied customers streaming 25,000+ channels
             </p>
             <a 
-              href="https://wa.link/3hjbk3" 
+              href="https://wa.link/byh2yk" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-white text-primary-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"

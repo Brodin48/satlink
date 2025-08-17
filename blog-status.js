@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-console.log('🎉 SA-IPTV BLOG IS NOW LIVE!')
+console.log('🎉 IPTV Satlink BLOG IS NOW LIVE!')
 console.log('============================')
 console.log('')
 
@@ -14,16 +14,16 @@ console.log('- Professional styling and layout')
 console.log('')
 
 console.log('📄 BLOG POSTS AVAILABLE:')
-console.log('1. "Getting Started with SA-IPTV: Complete Setup Guide"')
-console.log('2. "Top 10 Features That Make SA-IPTV the Best Streaming Service"')
-console.log('3. "SA-IPTV vs Traditional Cable TV: The Ultimate Comparison"')
+console.log('1. "Getting Started with IPTV Satlink: Complete Setup Guide"')
+console.log('2. "Top 10 Features That Make IPTV Satlink the Best Streaming Service"')
+console.log('3. "IPTV Satlink vs Traditional Cable TV: The Ultimate Comparison"')
 console.log('4. "Best IPTV Apps for Your Smart TV in 2025"')
 console.log('')
 
 console.log('🌐 ACCESS YOUR BLOG:')
 console.log('- Blog listing: http://localhost:3020/blog')
 console.log('- Individual posts: http://localhost:3020/blog/[slug]')
-console.log('- Example: http://localhost:3020/blog/getting-started-sa-iptv-setup-guide')
+console.log('- Example: http://localhost:3020/blog/getting-started-iptvsatlink-setup-guide')
 console.log('')
 
 console.log('📂 FILES CREATED/MODIFIED:')

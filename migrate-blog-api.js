@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 /**
- * SA-IPTV Blog Migration Script
+ * IPTV Satlink Blog Migration Script
  * 
- * This script helps you migrate from blog.sa-iptv.io to blog-sa.iptv.com
+ * This script helps you migrate from blog.iptvsatlink.io to blog-sa.iptv.com
  * and provides fallback functionality for seamless operation.
  */
 
@@ -11,7 +11,7 @@ const fs = require('fs').promises
 const path = require('path')
 
 const config = {
-  OLD_API: 'https://blog.sa-iptv.io/wp-json/wp/v2',
+  OLD_API: 'https://blog.iptvsatlink.io/wp-json/wp/v2',
   NEW_API: 'https://blog-sa.iptv.com/wp-json/wp/v2',
   BACKUP_DIR: './backups',
   LIB_FILE: './lib/wordpress.ts'
@@ -25,7 +25,7 @@ async function testAPIEndpoint(url, name) {
     const response = await fetch(`${url}/posts?per_page=1`, {
       headers: {
         'Accept': 'application/json',
-        'User-Agent': 'SA-IPTV-Migration-Script/1.0'
+        'User-Agent': 'IPTV Satlink-Migration-Script/1.0'
       }
     })
     
@@ -126,7 +126,7 @@ export async function getWordPressPosts(params: {
         next: { revalidate: 3600 }, // Revalidate every hour
         headers: { 
           'Accept': 'application/json',
-          'User-Agent': 'SA-IPTV-Portal/1.0'
+          'User-Agent': 'IPTV Satlink-Portal/1.0'
         },
       }
     )
@@ -154,7 +154,7 @@ export async function getWordPressPost(slug: string): Promise<WordPressPost | nu
         next: { revalidate: 3600 },
         headers: { 
           'Accept': 'application/json',
-          'User-Agent': 'SA-IPTV-Portal/1.0'
+          'User-Agent': 'IPTV Satlink-Portal/1.0'
         },
       }
     )
@@ -181,7 +181,7 @@ export async function getWordPressCategories(): Promise<WordPressCategory[]> {
         next: { revalidate: 86400 }, // Revalidate daily
         headers: { 
           'Accept': 'application/json',
-          'User-Agent': 'SA-IPTV-Portal/1.0'
+          'User-Agent': 'IPTV Satlink-Portal/1.0'
         },
       }
     )
@@ -224,11 +224,11 @@ export function extractPlainText(html: string, maxLength: number = 160): string 
 }
 
 async function main() {
-  console.log('🚀 SA-IPTV Blog Migration Script')
+  console.log('🚀 IPTV Satlink Blog Migration Script')
   console.log('================================')
   
   // Test both endpoints
-  const oldAPIResult = await testAPIEndpoint(config.OLD_API, 'Old API (blog.sa-iptv.io)')
+  const oldAPIResult = await testAPIEndpoint(config.OLD_API, 'Old API (blog.iptvsatlink.io)')
   const newAPIResult = await testAPIEndpoint(config.NEW_API, 'New API (blog-sa.iptv.com)')
   
   console.log('\n📊 Test Results Summary:')

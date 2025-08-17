@@ -4,9 +4,9 @@ import Footer from '../../../components/Footer'
 import { Download, Monitor, Shield, CheckCircle, Star, Zap, Settings, Play } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Download Windows IPTV Player 3.0 | SA-IPTV Windows App',
-  description: 'Download the official Windows IPTV Player 3.0 for SA-IPTV. Free Windows application for streaming 25,000+ channels and 26,000+ movies on your PC.',
-  keywords: 'Windows IPTV Player, SA-IPTV Windows app, IPTV player download, Windows streaming app, SA-IPTV PC'
+  title: 'Download Windows IPTV Player 3.0 | IPTV Satlink Windows App',
+  description: 'Download the official Windows IPTV Player 3.0 for IPTV Satlink. Free Windows application for streaming 25,000+ channels and 26,000+ movies on your PC.',
+  keywords: 'Windows IPTV Player, IPTV Satlink Windows app, IPTV player download, Windows streaming app, IPTV Satlink PC'
 }
 
 export default function WindowsIPTVPlayerPage() {
@@ -22,7 +22,7 @@ export default function WindowsIPTVPlayerPage() {
     {
       icon: <Monitor className="w-8 h-8 text-blue-600" />,
       title: "Optimized for Windows",
-      description: "Native Windows application designed specifically for the best SA-IPTV experience on PC"
+      description: "Native Windows application designed specifically for the best IPTV Satlink experience on PC"
     },
     {
       icon: <Play className="w-8 h-8 text-green-600" />,
@@ -59,7 +59,7 @@ export default function WindowsIPTVPlayerPage() {
               Windows IPTV Player 3.0
             </h1>
             <p className="text-xl md:text-2xl mb-8 opacity-90 leading-relaxed">
-              The official <strong>SA-IPTV</strong> Windows application. Stream 25,000+ live channels 
+              The official <strong>IPTV Satlink</strong> Windows application. Stream 25,000+ live channels 
               and 26,000+ movies directly on your Windows PC with our premium IPTV player.
             </p>
 
@@ -79,7 +79,7 @@ export default function WindowsIPTVPlayerPage() {
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors inline-flex items-center justify-center"
               >
                 <Star className="w-6 h-6 mr-3" />
-                Get SA-IPTV Subscription
+                Get IPTV Satlink Subscription
               </a>
             </div>
 
@@ -112,7 +112,7 @@ export default function WindowsIPTVPlayerPage() {
               Why Choose Our Windows IPTV Player?
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Experience the best <strong>SA-IPTV</strong> streaming on Windows with our 
+              Experience the best <strong>IPTV Satlink</strong> streaming on Windows with our 
               professionally designed application built specifically for PC users.
             </p>
           </div>
@@ -171,7 +171,7 @@ export default function WindowsIPTVPlayerPage() {
                     </li>
                     <li className="flex items-start">
                       <span className="bg-blue-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm mr-3 mt-0.5 flex-shrink-0">3</span>
-                      <span className="text-gray-700">Enter your SA-IPTV subscription credentials</span>
+                      <span className="text-gray-700">Enter your IPTV Satlink subscription credentials</span>
                     </li>
                     <li className="flex items-start">
                       <span className="bg-blue-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm mr-3 mt-0.5 flex-shrink-0">4</span>
@@ -190,10 +190,10 @@ export default function WindowsIPTVPlayerPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
-              Premium <span className="text-blue-600">SA-IPTV</span> Features
+              Premium <span className="text-blue-600">IPTV Satlink</span> Features
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Get the complete <strong>SA-IPTV</strong> experience on Windows with all premium features included.
+              Get the complete <strong>IPTV Satlink</strong> experience on Windows with all premium features included.
             </p>
           </div>
 
@@ -225,8 +225,8 @@ export default function WindowsIPTVPlayerPage() {
             Ready to Stream on Windows?
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
-            Download the Windows IPTV Player 3.0 and start enjoying premium <strong>SA-IPTV</strong> 
-            content on your PC today. Completely free application for all SA-IPTV subscribers.
+            Download the Windows IPTV Player 3.0 and start enjoying premium <strong>IPTV Satlink</strong> 
+            content on your PC today. Completely free application for all IPTV Satlink subscribers.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -239,7 +239,7 @@ export default function WindowsIPTVPlayerPage() {
               Download Windows App
             </a>
             <a 
-              href="https://wa.link/3hjbk3" 
+              href="https://wa.link/byh2yk" 
               target="_blank" 
               rel="noopener noreferrer"
               className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors inline-flex items-center justify-center"

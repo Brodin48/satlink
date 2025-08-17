@@ -1,13 +1,13 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'IBO IPTV Player | Best IPTV App for All Devices | SA-IPTV Compatible',
-  description: 'Download IBO IPTV player for Android, iOS, Smart TV and more. Fully compatible with SA-IPTV services. Easy setup, 4K streaming, EPG support.',
-  keywords: 'IBO IPTV, IPTV player, Android IPTV app, iOS IPTV, Smart TV IPTV, SA-IPTV compatible, EPG support',
+  title: 'IBO IPTV Player | Best IPTV App for All Devices | IPTV Satlink Compatible',
+  description: 'Download IBO IPTV player for Android, iOS, Smart TV and more. Fully compatible with IPTV Satlink services. Easy setup, 4K streaming, EPG support.',
+  keywords: 'IBO IPTV, IPTV player, Android IPTV app, iOS IPTV, Smart TV IPTV, IPTV Satlink compatible, EPG support',
   openGraph: {
     title: 'IBO IPTV Player | Best IPTV App for All Devices',
-    description: 'Professional IPTV player with full SA-IPTV compatibility. Download for all devices and start streaming today!',
-    url: 'https://sa-iptv.io/ibo-iptv',
+    description: 'Professional IPTV player with full IPTV Satlink compatibility. Download for all devices and start streaming today!',
+    url: 'https://iptvsatlink.io/ibo-iptv',
     type: 'article',
   },
 }
@@ -24,7 +24,7 @@ export default function IBOIPTVPage() {
               IBO IPTV Player
             </h1>
             <p className="text-xl text-green-100 mb-6">
-              Professional IPTV Player - Fully Compatible with SA-IPTV Services
+              Professional IPTV Player - Fully Compatible with IPTV Satlink Services
             </p>
             <div className="flex justify-center space-x-4 text-green-100">
               <div className="flex items-center">
@@ -33,7 +33,7 @@ export default function IBOIPTVPage() {
               </div>
               <div className="flex items-center">
                 <span className="text-2xl mr-2">🎯</span>
-                <span>SA-IPTV Compatible</span>
+                <span>IPTV Satlink Compatible</span>
               </div>
               <div className="flex items-center">
                 <span className="text-2xl mr-2">🚀</span>
@@ -52,7 +52,7 @@ export default function IBOIPTVPage() {
               <p className="text-gray-600 mb-6 text-lg leading-relaxed">
                 IBO IPTV Player is a powerful, user-friendly IPTV application designed to provide 
                 the best streaming experience across all devices. It's the perfect companion for 
-                your SA-IPTV subscription, offering seamless integration and premium features.
+                your IPTV Satlink subscription, offering seamless integration and premium features.
               </p>
               
               <div className="space-y-4">
@@ -71,8 +71,8 @@ export default function IBOIPTVPage() {
                     <span className="text-green-600 text-sm">✓</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-800">SA-IPTV Integration</h3>
-                    <p className="text-gray-600 text-sm">Optimized for SA-IPTV services and content</p>
+                    <h3 className="font-semibold text-gray-800">IPTV Satlink Integration</h3>
+                    <p className="text-gray-600 text-sm">Optimized for IPTV Satlink services and content</p>
                   </div>
                 </div>
 
@@ -131,14 +131,14 @@ export default function IBOIPTVPage() {
           </h2>
           <p className="text-green-100 mb-6 max-w-2xl mx-auto">
             Download IBO IPTV Player today and enjoy the best streaming experience with your 
-            SA-IPTV subscription. Get started in minutes with our easy setup process.
+            IPTV Satlink subscription. Get started in minutes with our easy setup process.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href="/pricing" 
               className="bg-white text-green-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
             >
-              Get SA-IPTV
+              Get IPTV Satlink
             </a>
             <a 
               href="/contact" 

@@ -1,13 +1,13 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Duplex IPTV Activation | Setup Guide for SA-IPTV | Step-by-Step Tutorial',
-  description: 'Complete guide to activate Duplex IPTV with SA-IPTV services. Easy setup instructions for Android, iOS, Smart TV and all devices.',
-  keywords: 'Duplex IPTV activation, SA-IPTV setup, Duplex player, IPTV activation guide, Android IPTV, Smart TV IPTV',
+  title: 'Duplex IPTV Activation | Setup Guide for IPTV Satlink | Step-by-Step Tutorial',
+  description: 'Complete guide to activate Duplex IPTV with IPTV Satlink services. Easy setup instructions for Android, iOS, Smart TV and all devices.',
+  keywords: 'Duplex IPTV activation, IPTV Satlink setup, Duplex player, IPTV activation guide, Android IPTV, Smart TV IPTV',
   openGraph: {
-    title: 'Duplex IPTV Activation | Setup Guide for SA-IPTV',
-    description: 'Activate Duplex IPTV with SA-IPTV in minutes. Complete setup guide for all devices.',
-    url: 'https://sa-iptv.io/duplex-iptv-activation',
+    title: 'Duplex IPTV Activation | Setup Guide for IPTV Satlink',
+    description: 'Activate Duplex IPTV with IPTV Satlink in minutes. Complete setup guide for all devices.',
+    url: 'https://iptvsatlink.io/duplex-iptv-activation',
     type: 'article',
   },
 }
@@ -24,7 +24,7 @@ export default function DuplexIPTVActivationPage() {
               Duplex IPTV Activation
             </h1>
             <p className="text-xl text-purple-100 mb-6">
-              Complete Setup Guide for SA-IPTV Integration with Duplex Player
+              Complete Setup Guide for IPTV Satlink Integration with Duplex Player
             </p>
             <div className="flex justify-center space-x-4 text-purple-100">
               <div className="flex items-center">
@@ -37,7 +37,7 @@ export default function DuplexIPTVActivationPage() {
               </div>
               <div className="flex items-center">
                 <span className="text-2xl mr-2">🎯</span>
-                <span>SA-IPTV Compatible</span>
+                <span>IPTV Satlink Compatible</span>
               </div>
             </div>
           </div>
@@ -51,7 +51,7 @@ export default function DuplexIPTVActivationPage() {
             <div>
               <p className="text-gray-600 mb-6 text-lg leading-relaxed">
                 Duplex IPTV is a powerful, feature-rich IPTV player designed for optimal streaming 
-                performance. It offers excellent compatibility with SA-IPTV services and provides 
+                performance. It offers excellent compatibility with IPTV Satlink services and provides 
                 advanced features for a premium viewing experience.
               </p>
               
@@ -71,8 +71,8 @@ export default function DuplexIPTVActivationPage() {
                     <span className="text-purple-600 text-sm">✓</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-800">SA-IPTV Optimized</h3>
-                    <p className="text-gray-600 text-sm">Specially optimized for SA-IPTV content and services</p>
+                    <h3 className="font-semibold text-gray-800">IPTV Satlink Optimized</h3>
+                    <p className="text-gray-600 text-sm">Specially optimized for IPTV Satlink content and services</p>
                   </div>
                 </div>
 
@@ -168,7 +168,7 @@ export default function DuplexIPTVActivationPage() {
                 <div className="flex items-start space-x-4">
                   <div className="bg-purple-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">3</div>
                   <div className="flex-1">
-                    <h4 className="text-lg font-semibold text-gray-800 mb-2">Add SA-IPTV Service</h4>
+                    <h4 className="text-lg font-semibold text-gray-800 mb-2">Add IPTV Satlink Service</h4>
                     <p className="text-gray-600 mb-3">
                       Select "Add New Playlist" or "Add Service" and choose the M3U playlist option.
                     </p>
@@ -183,9 +183,9 @@ export default function DuplexIPTVActivationPage() {
                 <div className="flex items-start space-x-4">
                   <div className="bg-purple-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">4</div>
                   <div className="flex-1">
-                    <h4 className="text-lg font-semibold text-gray-800 mb-2">Enter SA-IPTV Details</h4>
+                    <h4 className="text-lg font-semibold text-gray-800 mb-2">Enter IPTV Satlink Details</h4>
                     <p className="text-gray-600 mb-3">
-                      Input your SA-IPTV M3U URL, username, and password provided in your subscription email.
+                      Input your IPTV Satlink M3U URL, username, and password provided in your subscription email.
                     </p>
                     <div className="bg-yellow-50 p-3 rounded-lg border-l-4 border-yellow-400">
                       <p className="text-sm text-yellow-800">
@@ -204,7 +204,7 @@ export default function DuplexIPTVActivationPage() {
                     </p>
                     <div className="bg-green-50 p-3 rounded-lg border-l-4 border-green-400">
                       <p className="text-sm text-green-800">
-                        <strong>Success:</strong> Your SA-IPTV is now active on Duplex Player!
+                        <strong>Success:</strong> Your IPTV Satlink is now active on Duplex Player!
                       </p>
                     </div>
                   </div>
@@ -214,9 +214,9 @@ export default function DuplexIPTVActivationPage() {
 
             <div className="space-y-6">
               <div className="bg-purple-50 rounded-lg p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Need Your SA-IPTV Details?</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Need Your IPTV Satlink Details?</h3>
                 <p className="text-gray-600 mb-4">
-                  Your SA-IPTV credentials were sent to your email after purchase. 
+                  Your IPTV Satlink credentials were sent to your email after purchase. 
                   If you can't find them, we're here to help!
                 </p>
                 <a 
@@ -228,7 +228,7 @@ export default function DuplexIPTVActivationPage() {
               </div>
 
               <div className="bg-green-50 border-2 border-green-200 rounded-lg p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Don't Have SA-IPTV?</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Don't Have IPTV Satlink?</h3>
                 <p className="text-gray-600 mb-4">
                   Get instant access to premium IPTV content with our affordable plans.
                 </p>
@@ -246,10 +246,10 @@ export default function DuplexIPTVActivationPage() {
         {/* CTA Section */}
         <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl shadow-lg p-8 text-center">
           <h2 className="text-2xl font-bold text-white mb-4">
-            Ready to Activate Duplex IPTV with SA-IPTV?
+            Ready to Activate Duplex IPTV with IPTV Satlink?
           </h2>
           <p className="text-purple-100 mb-6 max-w-2xl mx-auto">
-            Follow our comprehensive guide to set up Duplex IPTV with your SA-IPTV subscription. 
+            Follow our comprehensive guide to set up Duplex IPTV with your IPTV Satlink subscription. 
             Enjoy premium streaming with advanced features and excellent performance.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -257,7 +257,7 @@ export default function DuplexIPTVActivationPage() {
               href="/pricing" 
               className="bg-white text-purple-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
             >
-              Get SA-IPTV Now
+              Get IPTV Satlink Now
             </a>
             <a 
               href="/contact" 

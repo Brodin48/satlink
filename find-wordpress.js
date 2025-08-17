@@ -2,30 +2,30 @@
 
 /**
  * WordPress Installation Discovery Script
- * Tests various possible WordPress configurations for SA-IPTV
+ * Tests various possible WordPress configurations for IPTV Satlink
  */
 
 const { execSync } = require('child_process')
 
 const testUrls = [
   // Direct WordPress API endpoints
-  'https://blog.sa-iptv.com/wp-json/wp/v2/posts',
-  'https://www.sa-iptv.com/wp-json/wp/v2/posts',
-  'https://sa-iptv.com/wp-json/wp/v2/posts',
+  'https://blog.iptvsatlink.com/wp-json/wp/v2/posts',
+  'https://www.iptvsatlink.com/wp-json/wp/v2/posts',
+  'https://iptvsatlink.com/wp-json/wp/v2/posts',
   
   // WordPress in subdirectory
-  'https://sa-iptv.com/blog/wp-json/wp/v2/posts',
-  'https://www.sa-iptv.com/blog/wp-json/wp/v2/posts',
-  'https://sa-iptv.com/wordpress/wp-json/wp/v2/posts',
+  'https://iptvsatlink.com/blog/wp-json/wp/v2/posts',
+  'https://www.iptvsatlink.com/blog/wp-json/wp/v2/posts',
+  'https://iptvsatlink.com/wordpress/wp-json/wp/v2/posts',
   
   // Check for WordPress admin/login
-  'https://blog.sa-iptv.com/wp-admin',
-  'https://www.sa-iptv.com/wp-admin',
-  'https://sa-iptv.com/wp-admin',
+  'https://blog.iptvsatlink.com/wp-admin',
+  'https://www.iptvsatlink.com/wp-admin',
+  'https://iptvsatlink.com/wp-admin',
   
   // Alternative subdomains
-  'https://wp.sa-iptv.com/wp-json/wp/v2/posts',
-  'https://cms.sa-iptv.com/wp-json/wp/v2/posts'
+  'https://wp.iptvsatlink.com/wp-json/wp/v2/posts',
+  'https://cms.iptvsatlink.com/wp-json/wp/v2/posts'
 ]
 
 async function testUrl(url) {
@@ -84,7 +84,7 @@ async function testUrl(url) {
 }
 
 async function main() {
-  console.log('🔍 SA-IPTV WordPress Discovery')
+  console.log('🔍 IPTV Satlink WordPress Discovery')
   console.log('===============================')
   
   const workingApis = []
@@ -117,7 +117,7 @@ async function main() {
   } else {
     console.log('❌ No WordPress installation found at common locations')
     console.log('\n💡 Possible next steps:')
-    console.log('   1. Check if blog.sa-iptv.com subdomain is properly configured')
+    console.log('   1. Check if blog.iptvsatlink.com subdomain is properly configured')
     console.log('   2. Verify WordPress is installed and REST API is enabled')
     console.log('   3. Confirm the exact URL where WordPress is hosted')
   }

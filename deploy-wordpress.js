@@ -11,9 +11,9 @@ try {
   execSync('git add .', { stdio: 'inherit' })
   
   console.log('2. Committing WordPress integration...')
-  execSync(`git commit -m "🔄 Enable WordPress integration for blog.sa-iptv.com
+  execSync(`git commit -m "🔄 Enable WordPress integration for blog.iptvsatlink.com
 
-- Blog now fetches from WordPress API at blog.sa-iptv.com
+- Blog now fetches from WordPress API at blog.iptvsatlink.com
 - Intelligent fallback to static content when WordPress unavailable  
 - Smart data source indicators show live vs static content
 - Individual post pages support both WordPress and static
@@ -28,8 +28,8 @@ Current status: Will show static content until subdomain is configured"`, { stdi
   console.log('✅ DEPLOYMENT COMPLETE!')
   console.log('')
   console.log('🌐 Your blog will be live at:')
-  console.log('- https://sa-iptv.com/blog')
-  console.log('- https://www.sa-iptv.com/blog')
+  console.log('- https://iptvsatlink.com/blog')
+  console.log('- https://www.iptvsatlink.com/blog')
   console.log('')
   console.log('📊 Current behavior:')
   console.log('- Shows static content (with blue indicator)')

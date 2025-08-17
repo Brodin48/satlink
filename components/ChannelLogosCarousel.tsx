@@ -45,7 +45,7 @@ export default function ChannelLogosCarousel() {
         </div>
         
         <p className="text-center text-gray-600 mt-6 sm:mt-8 text-sm sm:text-base lg:text-lg">
-          Stream from top networks worldwide with your SA-IPTV subscription
+          Stream from top networks worldwide with your IPTV Satlink subscription
         </p>
       </div>
     </section>

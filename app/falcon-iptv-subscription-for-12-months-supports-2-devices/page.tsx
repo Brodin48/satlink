@@ -3,7 +3,7 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Falcon IPTV Subscription - 12 Months Premium Plan | 2 Devices Support',
   description: 'Get Falcon IPTV 12-month subscription supporting 2 devices. Premium IPTV service with 25,000+ channels, HD/4K streaming, and 24/7 support.',
-  keywords: 'Falcon IPTV, 12 month subscription, 2 devices, premium IPTV, SA-IPTV compatible, HD streaming, 4K channels',
+  keywords: 'Falcon IPTV, 12 month subscription, 2 devices, premium IPTV, IPTV Satlink compatible, HD streaming, 4K channels',
 }
 
 export default function FalconIPTVPage() {
@@ -130,7 +130,7 @@ export default function FalconIPTVPage() {
             <p className="text-gray-600 mb-6">12-month subscription • 2 devices • Premium support</p>
             
             <a 
-              href="https://wa.link/3hjbk3" 
+              href="https://wa.link/byh2yk" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-red-600 to-orange-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:from-red-700 hover:to-orange-700 transition-all transform hover:scale-105 inline-flex items-center"
@@ -179,7 +179,7 @@ export default function FalconIPTVPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="https://wa.link/3hjbk3" 
+              href="https://wa.link/byh2yk" 
               className="bg-white text-red-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
             >
               Order Now - $89.99

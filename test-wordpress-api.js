@@ -3,7 +3,7 @@ const testWordPressAPI = async () => {
   try {
     console.log('Testing WordPress API connection...')
     
-    const response = await fetch('https://blog.sa-iptv.io/wp-json/wp/v2/posts?per_page=1')
+    const response = await fetch('https://blog.iptvsatlink.io/wp-json/wp/v2/posts?per_page=1')
     
     console.log('Response status:', response.status)
     console.log('Response headers:', Object.fromEntries(response.headers.entries()))

@@ -11,7 +11,7 @@ export default function Pricing() {
           duration: "1 Month", 
           price: "$10.99", 
           originalPrice: "$19.99", 
-          buyLink: "https://wa.link/3hjbk3", 
+          buyLink: "https://wa.link/byh2yk", 
           savings: "45%",
           badge: "SAVE 45%"
         },
@@ -19,7 +19,7 @@ export default function Pricing() {
           duration: "3 Months", 
           price: "$25.99", 
           originalPrice: "$59.97", 
-          buyLink: "https://wa.link/3hjbk3", 
+          buyLink: "https://wa.link/byh2yk", 
           savings: "57%",
           badge: "POPULAR"
         },
@@ -27,7 +27,7 @@ export default function Pricing() {
           duration: "6 Months", 
           price: "$39.99", 
           originalPrice: "$119.94", 
-          buyLink: "https://wa.link/3hjbk3", 
+          buyLink: "https://wa.link/byh2yk", 
           savings: "67%",
           badge: "BEST VALUE"
         },
@@ -35,7 +35,7 @@ export default function Pricing() {
           duration: "12 Months", 
           price: "$49.99", 
           originalPrice: "$139.88", 
-          buyLink: "https://wa.link/3hjbk3", 
+          buyLink: "https://wa.link/byh2yk", 
           savings: "64%",
           badge: "BEST VALUE"
         },
@@ -43,7 +43,7 @@ export default function Pricing() {
           duration: "24 Months", 
           price: "$89.99", 
           originalPrice: "$279.76", 
-          buyLink: "https://wa.link/3hjbk3", 
+          buyLink: "https://wa.link/byh2yk", 
           savings: "68%",
           badge: "MAXIMUM SAVINGS"
         }
@@ -55,7 +55,7 @@ export default function Pricing() {
     "25,000+ Live TV Channels",
     "HD & 4K Streaming Quality",
     "Regular Content Updates",
-    "24/7 SA-IPTV Support",
+    "24/7 IPTV Satlink Support",
     "Compatible with All Devices",
     "Adult Content Included"
   ]
@@ -74,7 +74,7 @@ export default function Pricing() {
           {/* Free Trial Button */}
           <div className="mt-6">
             <a 
-              href="https://wa.link/3hjbk3" 
+              href="https://wa.link/byh2yk" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"
@@ -211,7 +211,7 @@ export default function Pricing() {
 
                   {/* CTA Button */}
                   <a 
-                    href="https://wa.link/3hjbk3" 
+                    href="https://wa.link/byh2yk" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center bg-white text-primary-500 px-6 sm:px-8 py-3 sm:py-4 rounded-xl text-lg sm:text-xl font-black hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 shadow-2xl border-2 border-secondary-200 hover:border-secondary-300 group"
@@ -306,7 +306,7 @@ export default function Pricing() {
         <div className="mt-8 sm:mt-12 text-center">
           <div className="bg-gray-50 rounded-2xl p-6 sm:p-8 max-w-4xl mx-auto">
             <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-4">
-              Why Choose SA-IPTV?
+              Why Choose IPTV Satlink?
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
               <div className="text-center">

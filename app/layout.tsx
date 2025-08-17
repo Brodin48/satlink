@@ -6,24 +6,24 @@ import Script from 'next/script'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'SA-IPTV - Premium IPTV Service Since 2019 | 25,000+ Channels',
-  description: 'Experience premium SA-IPTV service with 25,000+ live channels & 26,000+ movies. Get instant SA-IPTV access with HD/4K quality. Join millions who trust SA-IPTV for ultimate entertainment.',
-  keywords: 'SA-IPTV, SA-IPTV service, SA-IPTV subscription, SA-IPTV free trial, SA-IPTV app, live tv, streaming, movies, sports channels',
+  title: 'IPTV Satlink - Premium IPTV Service Since 2019 | 25,000+ Channels',
+  description: 'Experience premium IPTV Satlink service with 25,000+ live channels & 26,000+ movies. Get instant IPTV Satlink access with HD/4K quality. Join millions who trust IPTV Satlink for ultimate entertainment.',
+  keywords: 'IPTV Satlink, IPTV Satlink service, IPTV Satlink subscription, IPTV Satlink free trial, IPTV Satlink app, live tv, streaming, movies, sports channels',
   verification: {
     google: 'V8NWMAKmJDsAejY_oVeKROeukdyIIg-ZqK1t096BMTA',
   },
   openGraph: {
-    title: 'SA-IPTV - Premium IPTV Service',
-    description: 'Get SA-IPTV access with 25,000+ live TV channels and 26,000+ movies. Best SA-IPTV subscription service.',
-    url: 'https://sa-iptv.com',
-    siteName: 'SA-IPTV',
+    title: 'IPTV Satlink - Premium IPTV Service',
+    description: 'Get IPTV Satlink access with 25,000+ live TV channels and 26,000+ movies. Best IPTV Satlink subscription service.',
+    url: 'https://iptvsatlink.com',
+    siteName: 'IPTV Satlink',
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'SA-IPTV - Premium IPTV Subscription',
-    description: 'Get SA-IPTV access with 25,000+ channels. Best SA-IPTV service.',
+    title: 'IPTV Satlink - Premium IPTV Subscription',
+    description: 'Get IPTV Satlink access with 25,000+ channels. Best IPTV Satlink service.',
   },
   robots: {
     index: true,

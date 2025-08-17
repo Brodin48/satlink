@@ -1,5 +1,5 @@
 // WordPress API configuration
-const WORDPRESS_API_URL = 'https://blog.sa-iptv.com/wp-json/wp/v2'
+const WORDPRESS_API_URL = 'https://blog.iptvsatlink.com/wp-json/wp/v2'
 
 export interface WordPressPost {
   id: number
@@ -55,7 +55,7 @@ export async function getWordPressPosts(params: {
         next: { revalidate: 3600 }, // Revalidate every hour
         headers: { 
           'Accept': 'application/json',
-          'User-Agent': 'SA-IPTV-Portal/1.0'
+          'User-Agent': 'IPTV Satlink-Portal/1.0'
         },
         timeout: 10000, // 10 second timeout
       }
@@ -84,7 +84,7 @@ export async function getWordPressPost(slug: string): Promise<WordPressPost | nu
         next: { revalidate: 3600 },
         headers: { 
           'Accept': 'application/json',
-          'User-Agent': 'SA-IPTV-Portal/1.0'
+          'User-Agent': 'IPTV Satlink-Portal/1.0'
         },
       }
     )
@@ -111,7 +111,7 @@ export async function getWordPressCategories(): Promise<WordPressCategory[]> {
         next: { revalidate: 86400 }, // Revalidate daily
         headers: { 
           'Accept': 'application/json',
-          'User-Agent': 'SA-IPTV-Portal/1.0'
+          'User-Agent': 'IPTV Satlink-Portal/1.0'
         },
       }
     )

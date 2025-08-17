@@ -1,13 +1,13 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'SA-IPTV Activation for Smart TV | Complete Setup Guide 2025',
-  description: 'Step-by-step guide to activate SA-IPTV on your Smart TV. Compatible with Samsung, LG, Android TV, Fire TV and more. Get streaming in minutes!',
-  keywords: 'SA-IPTV activation, Smart TV setup, Samsung TV IPTV, LG TV IPTV, Android TV IPTV, Fire TV IPTV activation',
+  title: 'IPTV Satlink Activation for Smart TV | Complete Setup Guide 2025',
+  description: 'Step-by-step guide to activate IPTV Satlink on your Smart TV. Compatible with Samsung, LG, Android TV, Fire TV and more. Get streaming in minutes!',
+  keywords: 'IPTV Satlink activation, Smart TV setup, Samsung TV IPTV, LG TV IPTV, Android TV IPTV, Fire TV IPTV activation',
   openGraph: {
-    title: 'SA-IPTV Activation for Smart TV | Complete Setup Guide',
-    description: 'Activate SA-IPTV on any Smart TV with our detailed guide. Start streaming thousands of channels today!',
-    url: 'https://sa-iptv.io/flix-iptv-activation-smart-tv',
+    title: 'IPTV Satlink Activation for Smart TV | Complete Setup Guide',
+    description: 'Activate IPTV Satlink on any Smart TV with our detailed guide. Start streaming thousands of channels today!',
+    url: 'https://iptvsatlink.io/flix-iptv-activation-smart-tv',
     type: 'article',
   },
 }
@@ -21,7 +21,7 @@ export default function SAIPTVActivationSmartTVPage() {
         <div className="bg-white rounded-2xl shadow-xl overflow-hidden mb-8">
           <div className="bg-gradient-to-r from-blue-600 to-purple-600 px-8 py-12 text-center">
             <h1 className="text-4xl font-bold text-white mb-4">
-              SA-IPTV Activation for Smart TV
+              IPTV Satlink Activation for Smart TV
             </h1>
             <p className="text-xl text-blue-100 mb-6">
               Complete setup guide for all Smart TV brands - Get streaming in under 10 minutes!
@@ -53,8 +53,8 @@ export default function SAIPTVActivationSmartTVPage() {
                 <div className="flex items-start space-x-4">
                   <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">1</div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-800 mb-2">Download SA-IPTV App</h3>
-                    <p className="text-gray-600">Install the SA-IPTV app from your Smart TV's app store or sideload it using our APK file.</p>
+                    <h3 className="text-lg font-semibold text-gray-800 mb-2">Download IPTV Satlink App</h3>
+                    <p className="text-gray-600">Install the IPTV Satlink app from your Smart TV's app store or sideload it using our APK file.</p>
                   </div>
                 </div>
 
@@ -70,7 +70,7 @@ export default function SAIPTVActivationSmartTVPage() {
                   <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">3</div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-800 mb-2">Start Streaming</h3>
-                    <p className="text-gray-600">Your SA-IPTV is now activated! Enjoy thousands of channels and on-demand content.</p>
+                    <p className="text-gray-600">Your IPTV Satlink is now activated! Enjoy thousands of channels and on-demand content.</p>
                   </div>
                 </div>
               </div>
@@ -78,7 +78,7 @@ export default function SAIPTVActivationSmartTVPage() {
               <div className="mt-8 p-6 bg-green-50 rounded-lg border-l-4 border-green-400">
                 <h4 className="font-semibold text-green-800 mb-2">🎉 Activation Complete!</h4>
                 <p className="text-green-700 text-sm">
-                  Once activated, your SA-IPTV subscription will be valid across all your devices. 
+                  Once activated, your IPTV Satlink subscription will be valid across all your devices. 
                   Use the same credentials on multiple Smart TVs, mobile devices, and computers.
                 </p>
               </div>
@@ -100,7 +100,7 @@ export default function SAIPTVActivationSmartTVPage() {
             </div>
 
             <div className="bg-white rounded-xl shadow-lg p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Don't Have SA-IPTV Yet?</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Don't Have IPTV Satlink Yet?</h3>
               <p className="text-gray-600 mb-4">
                 Get instant access to 15,000+ channels and premium content.
               </p>
@@ -117,10 +117,10 @@ export default function SAIPTVActivationSmartTVPage() {
         {/* CTA Section */}
         <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl shadow-lg p-8 text-center">
           <h2 className="text-2xl font-bold text-white mb-4">
-            Ready to Activate SA-IPTV on Your Smart TV?
+            Ready to Activate IPTV Satlink on Your Smart TV?
           </h2>
           <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-            Join thousands of satisfied customers who have already activated SA-IPTV on their Smart TVs. 
+            Join thousands of satisfied customers who have already activated IPTV Satlink on their Smart TVs. 
             Get instant access to premium content with our simple activation process.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -128,7 +128,7 @@ export default function SAIPTVActivationSmartTVPage() {
               href="/pricing" 
               className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
             >
-              Get SA-IPTV Now
+              Get IPTV Satlink Now
             </a>
             <a 
               href="/contact" 

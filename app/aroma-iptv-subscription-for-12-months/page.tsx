@@ -1,9 +1,9 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Aroma IPTV Subscription - 12 Months Premium Package | SA-IPTV Compatible',
-  description: 'Get Aroma IPTV 12-month subscription with premium channels, HD/4K quality, and full SA-IPTV compatibility. Best entertainment package available.',
-  keywords: 'Aroma IPTV, 12 month subscription, premium IPTV, SA-IPTV compatible, HD streaming, entertainment package',
+  title: 'Aroma IPTV Subscription - 12 Months Premium Package | IPTV Satlink Compatible',
+  description: 'Get Aroma IPTV 12-month subscription with premium channels, HD/4K quality, and full IPTV Satlink compatibility. Best entertainment package available.',
+  keywords: 'Aroma IPTV, 12 month subscription, premium IPTV, IPTV Satlink compatible, HD streaming, entertainment package',
 }
 
 export default function AromaIPTVPage() {
@@ -161,7 +161,7 @@ export default function AromaIPTVPage() {
             <p className="text-gray-600 mb-6">12-month premium subscription • Single device • Aroma exclusive content</p>
             
             <a 
-              href="https://wa.link/3hjbk3" 
+              href="https://wa.link/byh2yk" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-pink-600 to-rose-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:from-pink-700 hover:to-rose-700 transition-all transform hover:scale-105 inline-flex items-center"
@@ -210,7 +210,7 @@ export default function AromaIPTVPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="https://wa.link/3hjbk3" 
+              href="https://wa.link/byh2yk" 
               className="bg-white text-pink-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
             >
               Subscribe Now - $79.99

@@ -13,8 +13,8 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="/sa-iptv-logo.svg" 
-              alt="SA-IPTV Logo" 
+              src="/images/logo.webp" 
+              alt="IPTV Satlink Logo" 
               className="h-12 sm:h-14 lg:h-16 w-auto object-contain"
             />
           </div>

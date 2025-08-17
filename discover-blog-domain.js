@@ -1,19 +1,19 @@
 #!/usr/bin/env node
 
 /**
- * Domain Discovery Script for SA-IPTV Blog
+ * Domain Discovery Script for IPTV Satlink Blog
  * Tests various possible blog configurations
  */
 
 const { execSync } = require('child_process')
 
 const possibleDomains = [
-  'https://blog.sa-iptv.com',
-  'https://www.sa-iptv.com/blog',
-  'https://sa-iptv.com/blog', 
-  'https://blog.sa-iptv.com/wp-json/wp/v2',
-  'https://www.sa-iptv.com/wp-json/wp/v2',
-  'https://sa-iptv.com/wp-json/wp/v2'
+  'https://blog.iptvsatlink.com',
+  'https://www.iptvsatlink.com/blog',
+  'https://iptvsatlink.com/blog', 
+  'https://blog.iptvsatlink.com/wp-json/wp/v2',
+  'https://www.iptvsatlink.com/wp-json/wp/v2',
+  'https://iptvsatlink.com/wp-json/wp/v2'
 ]
 
 async function testDomain(url) {
@@ -56,7 +56,7 @@ async function testDomain(url) {
 }
 
 async function main() {
-  console.log('🚀 SA-IPTV Blog Domain Discovery')
+  console.log('🚀 IPTV Satlink Blog Domain Discovery')
   console.log('=================================')
   
   const workingDomains = []

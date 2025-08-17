@@ -5,22 +5,22 @@ export default function StructuredData() {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Flex IPTV",
-    "description": "Premium SA-IPTV subscription service with 25,000+ live TV channels and 26,000+ movies. HD & 4K streaming quality.",
+    "description": "Premium IPTV Satlink subscription service with 25,000+ live TV channels and 26,000+ movies. HD & 4K streaming quality.",
     "provider": {
       "@type": "Organization",
       "name": "Flex IPTV",
-      "url": "https://sa-iptv.io"
+      "url": "https://iptvsatlink.io"
     },
     "areaServed": "Worldwide",
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": "SA-IPTV Subscription Plans",
+      "name": "IPTV Satlink Subscription Plans",
       "itemListElement": [
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "SA-IPTV 1 Month Plan"
+            "name": "IPTV Satlink 1 Month Plan"
           },
           "price": "10.99",
           "priceCurrency": "USD"
@@ -29,7 +29,7 @@ export default function StructuredData() {
           "@type": "Offer", 
           "itemOffered": {
             "@type": "Service",
-            "name": "SA-IPTV 3 Months Plan"
+            "name": "IPTV Satlink 3 Months Plan"
           },
           "price": "24.99",
           "priceCurrency": "USD"
@@ -38,7 +38,7 @@ export default function StructuredData() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service", 
-            "name": "SA-IPTV 6 Months Plan"
+            "name": "IPTV Satlink 6 Months Plan"
           },
           "price": "39.99",
           "priceCurrency": "USD"
@@ -47,7 +47,7 @@ export default function StructuredData() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "SA-IPTV 12 Months Plan"
+            "name": "IPTV Satlink 12 Months Plan"
           },
           "price": "69.99", 
           "priceCurrency": "USD"
@@ -56,7 +56,7 @@ export default function StructuredData() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "SA-IPTV Lifetime Access"
+            "name": "IPTV Satlink Lifetime Access"
           },
           "price": "199",
           "priceCurrency": "USD"
@@ -88,7 +88,7 @@ export default function StructuredData() {
           "@type": "Person",
           "name": "Sarah Johnson"
         },
-        "reviewBody": "Amazing SA-IPTV service! Crystal clear quality and tons of channels."
+        "reviewBody": "Amazing IPTV Satlink service! Crystal clear quality and tons of channels."
       }
     ]
   }
@@ -96,10 +96,10 @@ export default function StructuredData() {
   const organizationData = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "SA-IPTV",
-    "url": "https://sa-iptv.com",
-    "logo": "https://sa-iptv.com/sa-iptv-logo.svg",
-    "description": "Premium SA-IPTV subscription service provider offering 25,000+ live channels and 26,000+ movies with HD & 4K quality.",
+    "name": "IPTV Satlink",
+    "url": "https://iptvsatlink.com",
+    "logo": "https://iptvsatlink.com/iptvsatlink-logo.svg",
+    "description": "Premium IPTV Satlink subscription service provider offering 25,000+ live channels and 26,000+ movies with HD & 4K quality.",
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+1 (323) 704‑4063",
@@ -107,16 +107,16 @@ export default function StructuredData() {
       "availableLanguage": "English"
     },
     "sameAs": [
-      "https://twitter.com/sa-iptv",
-      "https://facebook.com/sa-iptv"
+      "https://twitter.com/iptvsatlink",
+      "https://facebook.com/iptvsatlink"
     ]
   }
 
   const productData = {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "SA-IPTV Subscription",
-    "description": "Premium SA-IPTV subscription with 25,000+ live TV channels, 26,000+ movies and TV shows, HD & 4K streaming quality.",
+    "name": "IPTV Satlink Subscription",
+    "description": "Premium IPTV Satlink subscription with 25,000+ live TV channels, 26,000+ movies and TV shows, HD & 4K streaming quality.",
     "brand": {
       "@type": "Brand",
       "name": "Flex IPTV"
@@ -127,7 +127,7 @@ export default function StructuredData() {
       "highPrice": "199", 
       "priceCurrency": "USD",
       "availability": "https://schema.org/InStock",
-      "url": "https://sa-iptv.io/pricing"
+      "url": "https://iptvsatlink.io/pricing"
     },
     "aggregateRating": {
       "@type": "AggregateRating",

@@ -18,13 +18,13 @@ export default function Testimonials() {
       name: "Anna Andersson",
       country: "Sweden", 
       rating: 5,
-      text: "This is the best SA-IPTV service, that I would recommend anyone to use. Staff are so friendly, Channels are working so great too."
+      text: "This is the best IPTV Satlink service, that I would recommend anyone to use. Staff are so friendly, Channels are working so great too."
     },
     {
       name: "Lars Hansen",
       country: "Norway",
       rating: 5, 
-      text: "I was looking for a subscription and i have found SA-IPTV, the service was great and the iptv is very good, I liked the quality and all my favorite football channels are in."
+      text: "I was looking for a subscription and i have found IPTV Satlink, the service was great and the iptv is very good, I liked the quality and all my favorite football channels are in."
     },
     {
       name: "James Wilson",
@@ -36,7 +36,7 @@ export default function Testimonials() {
       name: "Sami Virtanen", 
       country: "Finland",
       rating: 5,
-      text: "I recommend this SA-IPTV Service for all those who love watching Soccer. FHD channels and real time live streaming that too at a great price tag, what else do we need?"
+      text: "I recommend this IPTV Satlink Service for all those who love watching Soccer. FHD channels and real time live streaming that too at a great price tag, what else do we need?"
     }
   ]
 
@@ -49,7 +49,7 @@ export default function Testimonials() {
           </h2>
           <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-xs sm:max-w-2xl lg:max-w-3xl mx-auto leading-relaxed">
             Don't just take our word for it. Here's what our satisfied customers 
-            from around the world have to say about our SA-IPTV service.
+            from around the world have to say about our IPTV Satlink service.
           </p>
         </div>
 

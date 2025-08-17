@@ -1,15 +1,15 @@
-# 🎬 SA-IPTV.COM - Premium IPTV Service Website
+# 🎬 IPTV Satlink.COM - Premium IPTV Service Website
 
-A professional, SEO-optimized Next.js website for SA-IPTV.COM streaming service. Built with modern web technologies and optimized for search engines and user experience.
+A professional, SEO-optimized Next.js website for IPTV Satlink.COM streaming service. Built with modern web technologies and optimized for search engines and user experience.
 
-![SA-IPTV.COM](./public/flix%20logog.webp)
+![IPTV Satlink.COM](./public/flix%20logog.webp)
 
 ## 🌟 Features
 
 ### 🎯 Core Features
 - **Premium IPTV Service**: 25,000+ live channels and 26,000+ movies
 - **Professional Design**: Modern, responsive UI with Tailwind CSS
-- **SEO Optimized**: Comprehensive optimization for "SA-IPTV.COM" keywords
+- **SEO Optimized**: Comprehensive optimization for "IPTV Satlink.COM" keywords
 - **Multi-Device Support**: Compatible with all devices and platforms
 - **Windows App**: Official Windows IPTV Player 3.0 download
 
@@ -23,7 +23,7 @@ A professional, SEO-optimized Next.js website for SA-IPTV.COM streaming service.
 
 ## 🚀 Live Demo
 
-Visit the live website: [https://sa-iptv.io](https://sa-iptv.io)
+Visit the live website: [https://iptvsatlink.io](https://iptvsatlink.io)
 
 ## 📦 Installation
 
@@ -34,10 +34,10 @@ Visit the live website: [https://sa-iptv.io](https://sa-iptv.io)
 ### Setup
 ```bash
 # Clone the repository
-git clone https://github.com/Brodin48/sa-iptv.git
+git clone https://github.com/Brodin48/iptvsatlink.git
 
 # Navigate to project directory
-cd sa-iptv
+cd iptvsatlink
 
 # Install dependencies
 npm install
@@ -51,7 +51,7 @@ npm run dev
 ## 🏗️ Project Structure
 
 ```
-sa-iptv/
+iptvsatlink/
 ├── app/                    # Next.js app directory
 │   ├── about/             # About page
 │   ├── apps/              # Windows app download
@@ -98,9 +98,9 @@ sa-iptv/
 ### Environment Variables
 Create a `.env.local` file:
 ```env
-NEXT_PUBLIC_SITE_URL=https://sa-iptv.io
-NEXT_PUBLIC_CONTACT_EMAIL=contact@sa-iptv.io
-NEXT_PUBLIC_WHATSAPP_URL=https://wa.link/eepo31
+NEXT_PUBLIC_SITE_URL=https://iptvsatlink.io
+NEXT_PUBLIC_CONTACT_EMAIL=contact@iptvsatlink.io
+NEXT_PUBLIC_WHATSAPP_URL=https://wa.link/byh2yk
 ```
 
 ### Customization
@@ -120,7 +120,7 @@ NEXT_PUBLIC_WHATSAPP_URL=https://wa.link/eepo31
 - **Mobile-First**: Responsive design
 
 ### Content SEO
-- **Keyword Optimization**: "SA-IPTV.COM" focus
+- **Keyword Optimization**: "IPTV Satlink.COM" focus
 - **Internal Linking**: Strategic page connections
 - **Content Quality**: High-quality, relevant content
 - **User Experience**: Fast loading, easy navigation
@@ -178,18 +178,18 @@ npm run lint     # Run ESLint
 
 ## 📝 License
 
-This project is proprietary software for SA-IPTV.COM. All rights reserved.
+This project is proprietary software for IPTV Satlink.COM. All rights reserved.
 
 ## 📞 Support
 
-- **Website**: [https://sa-iptv.io](https://sa-iptv.io)
-- **Email**: contact@sa-iptv.io
-- **WhatsApp**: [Get Support](https://wa.link/eepo31)
+- **Website**: [https://iptvsatlink.io](https://iptvsatlink.io)
+- **Email**: contact@iptvsatlink.io
+- **WhatsApp**: [Get Support](https://wa.link/byh2yk)
 - **Hours**: Mon-Sat 11:00am-10:00pm
 
 ## 🏆 Features Comparison
 
-| Feature | SA-IPTV.COM | Competitors |
+| Feature | IPTV Satlink.COM | Competitors |
 |---------|-----------|-------------|
 | Channels | 25,000+ | 15,000-20,000 |
 | Movies/Shows | 26,000+ | 10,000-15,000 |
@@ -200,7 +200,7 @@ This project is proprietary software for SA-IPTV.COM. All rights reserved.
 
 ## 🎯 SEO Keywords
 
-**Primary**: SA-IPTV.COM, IPTV subscription, premium IPTV service  
+**Primary**: IPTV Satlink.COM, IPTV subscription, premium IPTV service  
 **Secondary**: Windows IPTV player, streaming service, live TV channels  
 **Long-tail**: Best IPTV service 2025, HD IPTV streaming, multi-device IPTV
 
@@ -208,5 +208,5 @@ This project is proprietary software for SA-IPTV.COM. All rights reserved.
 
 <div align="center">
   <p>Built with ❤️ for premium IPTV streaming</p>
-  <p>© 2025 SA-IPTV.COM. All rights reserved.</p>
+  <p>© 2025 IPTV Satlink.COM. All rights reserved.</p>
 </div>

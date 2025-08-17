@@ -3,57 +3,57 @@ import { NextResponse } from 'next/server'
 export async function GET() {
   const staticPages = [
     {
-      url: 'https://sa-iptv.io',
+      url: 'https://iptvsatlink.io',
       changefreq: 'daily',
       priority: '1.0'
     },
     {
-      url: 'https://sa-iptv.io/about',
+      url: 'https://iptvsatlink.io/about',
       changefreq: 'monthly',
       priority: '0.8'
     },
     {
-      url: 'https://sa-iptv.io/blog',
+      url: 'https://iptvsatlink.io/blog',
       changefreq: 'daily',
       priority: '0.9'
     },
     {
-      url: 'https://sa-iptv.io/pricing',
+      url: 'https://iptvsatlink.io/pricing',
       changefreq: 'weekly',
       priority: '0.9'
     },
     {
-      url: 'https://sa-iptv.io/contact',
+      url: 'https://iptvsatlink.io/contact',
       changefreq: 'monthly',
       priority: '0.7'
     },
     {
-      url: 'https://sa-iptv.io/privacy-policy',
+      url: 'https://iptvsatlink.io/privacy-policy',
       changefreq: 'monthly',
       priority: '0.6'
     },
     {
-      url: 'https://sa-iptv.io/flix-iptv-activation-smart-tv',
+      url: 'https://iptvsatlink.io/flix-iptv-activation-smart-tv',
       changefreq: 'monthly',
       priority: '0.8'
     },
     {
-      url: 'https://sa-iptv.io/ibo-iptv',
+      url: 'https://iptvsatlink.io/ibo-iptv',
       changefreq: 'monthly',
       priority: '0.8'
     },
     {
-      url: 'https://sa-iptv.io/duplex-iptv-activation',
+      url: 'https://iptvsatlink.io/duplex-iptv-activation',
       changefreq: 'monthly',
       priority: '0.8'
     },
     {
-      url: 'https://sa-iptv.io/apps/Windows_IPTV_Player_3.0.exe',
+      url: 'https://iptvsatlink.io/apps/Windows_IPTV_Player_3.0.exe',
       changefreq: 'monthly',
       priority: '0.8'
     },
     {
-      url: 'https://sa-iptv.io/apps/IpFoxTVSetup.exe',
+      url: 'https://iptvsatlink.io/apps/IpFoxTVSetup.exe',
       changefreq: 'monthly',
       priority: '0.8'
     }

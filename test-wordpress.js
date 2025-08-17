@@ -1,7 +1,7 @@
 // Test WordPress connection
 console.log('Testing WordPress API connection...')
 
-fetch('https://blog.sa-iptv.com/wp-json/wp/v2/posts?per_page=5')
+fetch('https://blog.iptvsatlink.com/wp-json/wp/v2/posts?per_page=5')
   .then(res => {
     console.log('Response status:', res.status)
     return res.json()

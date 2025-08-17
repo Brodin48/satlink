@@ -9,15 +9,15 @@ export default function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center mb-4 sm:mb-6">
               <img 
-                src="/sa-iptv-logo.svg" 
-                alt="SA-IPTV Logo" 
+                src="/images/logo.webp" 
+                alt="IPTV Satlink Logo" 
                 className="w-16 h-16 sm:w-20 sm:h-20 object-contain"
               />
             </div>
               <p className="text-gray-400 mb-4 sm:mb-6 leading-relaxed text-sm sm:text-base">
-              Providing premium <strong>SA-IPTV</strong> service since 2019. Our mission is to deliver 
-              the best <strong>SA-IPTV</strong> streaming experience with reliable servers and exceptional customer support.
-              <span className="hidden sm:inline"> Get your <strong>SA-IPTV</strong> subscription at SA-IPTV.COM today.</span>
+              Providing premium <strong>IPTV Satlink</strong> service since 2019. Our mission is to deliver 
+              the best <strong>IPTV Satlink</strong> streaming experience with reliable servers and exceptional customer support.
+              <span className="hidden sm:inline"> Get your <strong>IPTV Satlink</strong> subscription at IPTV Satlink.COM today.</span>
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-primary-400 transition-colors">
@@ -49,13 +49,13 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6">SA-IPTV Features</h4>
+            <h4 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6">IPTV Satlink Features</h4>
             <ul className="space-y-2 sm:space-y-3">
               <li className="text-gray-400 text-sm sm:text-base">25,000+ Live TV Channels</li>
               <li className="text-gray-400 text-sm sm:text-base">26,000+ Movies & TV Shows</li>
               <li className="text-gray-400 text-sm sm:text-base">HD & 4K Streaming Quality</li>
               <li className="text-gray-400 text-sm sm:text-base">All Device Compatibility</li>
-              <li className="text-gray-400 text-sm sm:text-base">24/7 SA-IPTV Support</li>
+              <li className="text-gray-400 text-sm sm:text-base">24/7 IPTV Satlink Support</li>
               <li className="text-gray-400 text-sm sm:text-base">Regular Content Updates</li>
             </ul>
           </div>
@@ -66,14 +66,14 @@ export default function Footer() {
             <div className="space-y-3 sm:space-y-4">
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 sm:w-5 sm:h-5 text-primary-400 flex-shrink-0" />
-                <a href="https://wa.link/3hjbk3" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors text-sm sm:text-base">
+                <a href="https://wa.link/byh2yk" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors text-sm sm:text-base">
                   +1 (323) 704‑4063 <span className="hidden sm:inline">(WhatsApp)</span>
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 sm:w-5 sm:h-5 text-primary-400 flex-shrink-0" />
-                <a href="mailto:contact@sa-iptv.com" className="text-gray-400 hover:text-white transition-colors text-sm sm:text-base break-all">
-                  contact@sa-iptv.com
+                <a href="mailto:contact@iptvsatlink.com" className="text-gray-400 hover:text-white transition-colors text-sm sm:text-base break-all">
+                  contact@iptvsatlink.com
                 </a>
               </div>
               <div className="flex items-center space-x-3">
@@ -91,7 +91,7 @@ export default function Footer() {
         <div className="border-t border-primary-800 mt-8 sm:mt-12 pt-6 sm:pt-8">
           <div className="flex flex-col sm:flex-row justify-between items-center space-y-2 sm:space-y-0">
             <p className="text-gray-400 text-xs sm:text-sm text-center sm:text-left">
-              © 2025 <strong>SA-IPTV</strong>. All rights reserved. | Premium SA-IPTV Service at SA-IPTV.COM
+              © 2025 <strong>IPTV Satlink</strong>. All rights reserved. | Premium IPTV Satlink Service at IPTV Satlink.COM
             </p>
             <p className="text-gray-400 text-xs sm:text-sm text-center sm:text-right">
               <span className="hidden sm:inline">Powered by Premium Streaming Technology</span>

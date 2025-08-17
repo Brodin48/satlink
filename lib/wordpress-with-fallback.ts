@@ -1,7 +1,7 @@
 // WordPress API configuration with fallback support
 const WORDPRESS_API_URLS = {
   primary: 'https://blog-sa.iptv.com/wp-json/wp/v2',
-  fallback: 'https://blog.sa-iptv.io/wp-json/wp/v2'
+  fallback: 'https://blog.iptvsatlink.io/wp-json/wp/v2'
 }
 
 // Current active API URL
@@ -99,7 +99,7 @@ export async function getWordPressPosts(params: {
         next: { revalidate: 3600 }, // Revalidate every hour
         headers: { 
           'Accept': 'application/json',
-          'User-Agent': 'SA-IPTV-Portal/1.0'
+          'User-Agent': 'IPTV Satlink-Portal/1.0'
         },
       }
     )
@@ -149,7 +149,7 @@ async function getWordPressPostsFromUrl(apiUrl: string, params: any): Promise<Wo
         next: { revalidate: 3600 },
         headers: { 
           'Accept': 'application/json',
-          'User-Agent': 'SA-IPTV-Portal/1.0'
+          'User-Agent': 'IPTV Satlink-Portal/1.0'
         },
       }
     )
@@ -179,7 +179,7 @@ export async function getWordPressPost(slug: string): Promise<WordPressPost | nu
         next: { revalidate: 3600 },
         headers: { 
           'Accept': 'application/json',
-          'User-Agent': 'SA-IPTV-Portal/1.0'
+          'User-Agent': 'IPTV Satlink-Portal/1.0'
         },
       }
     )
@@ -218,7 +218,7 @@ async function getWordPressPostFromUrl(apiUrl: string, slug: string): Promise<Wo
         next: { revalidate: 3600 },
         headers: { 
           'Accept': 'application/json',
-          'User-Agent': 'SA-IPTV-Portal/1.0'
+          'User-Agent': 'IPTV Satlink-Portal/1.0'
         },
       }
     )
@@ -246,7 +246,7 @@ export async function getWordPressCategories(): Promise<WordPressCategory[]> {
         next: { revalidate: 86400 }, // Revalidate daily
         headers: { 
           'Accept': 'application/json',
-          'User-Agent': 'SA-IPTV-Portal/1.0'
+          'User-Agent': 'IPTV Satlink-Portal/1.0'
         },
       }
     )

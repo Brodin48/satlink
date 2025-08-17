@@ -39,13 +39,13 @@ export default function Features() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4 sm:mb-6">
-            Why Choose Our <span className="text-primary-600">SA-IPTV</span> Service?
+            Why Choose Our <span className="text-primary-600">IPTV Satlink</span> Service?
           </h2>
           <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-xs sm:max-w-2xl lg:max-w-3xl mx-auto leading-relaxed">
-            Experience the premium <strong>SA-IPTV</strong> difference with our world-class subscription service. 
-            <span className="hidden sm:inline"> Our <strong>SA-IPTV</strong> platform works seamlessly with all devices 
+            Experience the premium <strong>IPTV Satlink</strong> difference with our world-class subscription service. 
+            <span className="hidden sm:inline"> Our <strong>IPTV Satlink</strong> platform works seamlessly with all devices 
             including M3U, Enigma 2, Android Box, Smart TV, MAG Box and more. Get instant access to 
-            25,000+ Live Channels & 26,000+ Movies/Shows with your <strong>SA-IPTV</strong> subscription.</span>
+            25,000+ Live Channels & 26,000+ Movies/Shows with your <strong>IPTV Satlink</strong> subscription.</span>
           </p>
         </div>
 

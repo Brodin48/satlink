@@ -1,13 +1,13 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | SA-IPTV - Your Data Protection & Privacy Rights',
-  description: 'Learn about SA-IPTV\'s commitment to protecting your privacy and personal data. Comprehensive privacy policy covering data collection, usage, and your rights.',
-  keywords: 'SA-IPTV privacy policy, data protection, personal information, user privacy, GDPR compliance',
+  title: 'Privacy Policy | IPTV Satlink - Your Data Protection & Privacy Rights',
+  description: 'Learn about IPTV Satlink\'s commitment to protecting your privacy and personal data. Comprehensive privacy policy covering data collection, usage, and your rights.',
+  keywords: 'IPTV Satlink privacy policy, data protection, personal information, user privacy, GDPR compliance',
   openGraph: {
-    title: 'Privacy Policy | SA-IPTV',
+    title: 'Privacy Policy | IPTV Satlink',
     description: 'Your privacy matters to us. Read our comprehensive privacy policy.',
-    url: 'https://sa-iptv.io/privacy-policy',
+    url: 'https://iptvsatlink.io/privacy-policy',
     type: 'website',
   },
 }
@@ -89,7 +89,7 @@ export default function PrivacyPolicyPage() {
                 <div className="bg-red-50 border-l-4 border-red-400 p-6">
                   <h3 className="text-xl font-semibold text-gray-800 mb-3">We Do Not Sell Your Data</h3>
                   <p className="text-gray-600 mb-4">
-                    SA-IPTV does not sell, trade, or rent your personal information to third parties for marketing purposes.
+                    IPTV Satlink does not sell, trade, or rent your personal information to third parties for marketing purposes.
                   </p>
                 </div>
 
@@ -313,11 +313,11 @@ export default function PrivacyPolicyPage() {
                       <div className="space-y-3">
                         <div className="flex items-center">
                           <span className="text-blue-600 mr-3">📧</span>
-                          <span className="text-gray-600">privacy@sa-iptv.io</span>
+                          <span className="text-gray-600">privacy@iptvsatlink.io</span>
                         </div>
                         <div className="flex items-center">
                           <span className="text-blue-600 mr-3">🌐</span>
-                          <span className="text-gray-600">sa-iptv.io/contact</span>
+                          <span className="text-gray-600">iptvsatlink.io/contact</span>
                         </div>
                         <div className="flex items-center">
                           <span className="text-blue-600 mr-3">⏰</span>

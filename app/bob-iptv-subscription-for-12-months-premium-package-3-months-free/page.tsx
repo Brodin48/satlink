@@ -1,9 +1,9 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Bob IPTV Premium 12 Months + 3 Free | Best IPTV Deal | SA-IPTV Compatible',
+  title: 'Bob IPTV Premium 12 Months + 3 Free | Best IPTV Deal | IPTV Satlink Compatible',
   description: 'Bob IPTV Premium package: 12 months + 3 months FREE! Premium channels, 4K quality, multi-device support. Best IPTV deal available.',
-  keywords: 'Bob IPTV premium, 12 months free, 3 months bonus, premium IPTV, 4K streaming, multi-device, SA-IPTV',
+  keywords: 'Bob IPTV premium, 12 months free, 3 months bonus, premium IPTV, 4K streaming, multi-device, IPTV Satlink',
 }
 
 export default function BobIPTVPremiumPage() {
@@ -231,7 +231,7 @@ export default function BobIPTVPremiumPage() {
             </p>
             
             <a 
-              href="https://wa.link/3hjbk3" 
+              href="https://wa.link/byh2yk" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-white text-orange-600 px-10 py-5 rounded-xl font-bold text-xl hover:bg-gray-100 transition-all transform hover:scale-105 inline-flex items-center shadow-lg"
@@ -255,7 +255,7 @@ export default function BobIPTVPremiumPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="https://wa.link/3hjbk3" 
+              href="https://wa.link/byh2yk" 
               className="bg-yellow-500 text-gray-900 px-8 py-3 rounded-lg font-semibold hover:bg-yellow-400 transition-colors"
             >
               Get Premium Now - $149.99

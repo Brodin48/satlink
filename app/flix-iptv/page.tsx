@@ -1,13 +1,13 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Flix IPTV Player | Best IPTV App for Smart TV & Mobile | SA-IPTV Compatible',
-  description: 'Download Flix IPTV player - the ultimate IPTV app for Smart TV, Android, iOS. Fully compatible with SA-IPTV services. Free download, premium features.',
-  keywords: 'Flix IPTV, IPTV player, Smart TV app, Android IPTV, iOS IPTV, SA-IPTV compatible, IPTV streaming app',
+  title: 'Flix IPTV Player | Best IPTV App for Smart TV & Mobile | IPTV Satlink Compatible',
+  description: 'Download Flix IPTV player - the ultimate IPTV app for Smart TV, Android, iOS. Fully compatible with IPTV Satlink services. Free download, premium features.',
+  keywords: 'Flix IPTV, IPTV player, Smart TV app, Android IPTV, iOS IPTV, IPTV Satlink compatible, IPTV streaming app',
   openGraph: {
     title: 'Flix IPTV Player | Ultimate IPTV Streaming App',
-    description: 'Professional IPTV player with advanced features. Compatible with all SA-IPTV services and major platforms.',
-    url: 'https://sa-iptv.io/flix-iptv',
+    description: 'Professional IPTV player with advanced features. Compatible with all IPTV Satlink services and major platforms.',
+    url: 'https://iptvsatlink.io/flix-iptv',
     type: 'article',
   },
 }
@@ -24,7 +24,7 @@ export default function FlixIPTVPage() {
               Flix IPTV Player
             </h1>
             <p className="text-xl text-purple-100 mb-6">
-              Ultimate IPTV Streaming Experience • All Devices • SA-IPTV Compatible
+              Ultimate IPTV Streaming Experience • All Devices • IPTV Satlink Compatible
             </p>
             <div className="flex justify-center space-x-4 text-purple-100">
               <div className="flex items-center">
@@ -51,7 +51,7 @@ export default function FlixIPTVPage() {
             <div>
               <p className="text-gray-600 mb-6 text-lg leading-relaxed">
                 Flix IPTV Player is a cutting-edge IPTV application that transforms your viewing experience 
-                across all devices. With seamless SA-IPTV integration and advanced streaming capabilities, 
+                across all devices. With seamless IPTV Satlink integration and advanced streaming capabilities, 
                 it's the perfect solution for modern entertainment needs.
               </p>
               
@@ -81,8 +81,8 @@ export default function FlixIPTVPage() {
                     <span className="text-purple-600 text-sm">✓</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-800">SA-IPTV Ready</h3>
-                    <p className="text-gray-600 text-sm">Full compatibility with SA-IPTV services</p>
+                    <h3 className="font-semibold text-gray-800">IPTV Satlink Ready</h3>
+                    <p className="text-gray-600 text-sm">Full compatibility with IPTV Satlink services</p>
                   </div>
                 </div>
               </div>
@@ -131,7 +131,7 @@ export default function FlixIPTVPage() {
               <span className="text-2xl">🎯</span>
             </div>
             <h3 className="text-lg font-bold text-gray-900 mb-2">Easy Setup</h3>
-            <p className="text-gray-600 text-sm">Quick installation and automatic SA-IPTV configuration</p>
+            <p className="text-gray-600 text-sm">Quick installation and automatic IPTV Satlink configuration</p>
           </div>
 
           <div className="bg-white rounded-lg shadow-lg p-6">
@@ -183,7 +183,7 @@ export default function FlixIPTVPage() {
             
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
               <a 
-                href="https://wa.link/3hjbk3" 
+                href="https://wa.link/byh2yk" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-gradient-to-br from-green-500 to-green-600 text-white p-6 rounded-xl hover:from-green-600 hover:to-green-700 transition-all transform hover:scale-105"
@@ -194,7 +194,7 @@ export default function FlixIPTVPage() {
               </a>
 
               <a 
-                href="https://wa.link/3hjbk3" 
+                href="https://wa.link/byh2yk" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-gradient-to-br from-blue-500 to-blue-600 text-white p-6 rounded-xl hover:from-blue-600 hover:to-blue-700 transition-all transform hover:scale-105"
@@ -205,7 +205,7 @@ export default function FlixIPTVPage() {
               </a>
 
               <a 
-                href="https://wa.link/3hjbk3" 
+                href="https://wa.link/byh2yk" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-gradient-to-br from-purple-500 to-purple-600 text-white p-6 rounded-xl hover:from-purple-600 hover:to-purple-700 transition-all transform hover:scale-105"
@@ -216,7 +216,7 @@ export default function FlixIPTVPage() {
               </a>
 
               <a 
-                href="https://wa.link/3hjbk3" 
+                href="https://wa.link/byh2yk" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-gradient-to-br from-gray-500 to-gray-600 text-white p-6 rounded-xl hover:from-gray-600 hover:to-gray-700 transition-all transform hover:scale-105"
@@ -236,14 +236,14 @@ export default function FlixIPTVPage() {
           </h2>
           <p className="text-purple-100 mb-6 max-w-2xl mx-auto">
             Download Flix IPTV Player today and transform your streaming experience. 
-            Compatible with all SA-IPTV services and optimized for your devices.
+            Compatible with all IPTV Satlink services and optimized for your devices.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href="/pricing" 
               className="bg-white text-purple-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
             >
-              Get SA-IPTV Service
+              Get IPTV Satlink Service
             </a>
             <a 
               href="/contact" 

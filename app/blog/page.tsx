@@ -6,9 +6,9 @@ import { getWordPressPosts, formatDate, extractPlainText } from '../../lib/wordp
 import { getAllPosts, formatDate as staticFormatDate } from '../../lib/blog-data/posts'
 
 export const metadata: Metadata = {
-  title: 'SA-IPTV Blog - Latest IPTV News & Updates',
-  description: 'Stay updated with the latest SA-IPTV news, tips, and guides.',
-  keywords: 'SA-IPTV blog, IPTV news, SA-IPTV tips, streaming guides'
+  title: 'IPTV Satlink Blog - Latest IPTV News & Updates',
+  description: 'Stay updated with the latest IPTV Satlink news, tips, and guides.',
+  keywords: 'IPTV Satlink blog, IPTV news, IPTV Satlink tips, streaming guides'
 }
 
 export default async function Blog() {
@@ -17,7 +17,7 @@ export default async function Blog() {
   let isWordPress = false
   
   try {
-    console.log('Attempting to fetch from WordPress API at blog.sa-iptv.com...')
+    console.log('Attempting to fetch from WordPress API at blog.iptvsatlink.com...')
     const wpPosts = await getWordPressPosts({ per_page: 12 })
     if (wpPosts && wpPosts.length > 0) {
       posts = wpPosts
@@ -40,10 +40,10 @@ export default async function Blog() {
       <section className="bg-gradient-to-br from-primary-600 to-primary-800 text-white py-12 sm:py-16 lg:py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6">
-            SA-IPTV <span className="text-blue-300">Blog</span>
+            IPTV Satlink <span className="text-blue-300">Blog</span>
           </h1>
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl max-w-xs sm:max-w-2xl lg:max-w-4xl mx-auto leading-relaxed">
-            Stay informed with the latest SA-IPTV news, streaming guides, and 
+            Stay informed with the latest IPTV Satlink news, streaming guides, and 
             entertainment technology updates from our expert team.
           </p>
         </div>
@@ -69,11 +69,11 @@ export default async function Blog() {
                 {posts.map((post) => {
                   // Handle both WordPress and static post formats
                   const featuredImage = isWordPress 
-                    ? post._embedded?.['wp:featuredmedia']?.[0]?.source_url || '/sa-iptv-logo.svg'
-                    : post.image || '/sa-iptv-logo.svg'
+                    ? post._embedded?.['wp:featuredmedia']?.[0]?.source_url || '/iptvsatlink-logo.svg'
+                    : post.image || '/iptvsatlink-logo.svg'
                   const author = isWordPress 
-                    ? post._embedded?.author?.[0]?.name || 'SA-IPTV Team'
-                    : post.author || 'SA-IPTV Team'
+                    ? post._embedded?.author?.[0]?.name || 'IPTV Satlink Team'
+                    : post.author || 'IPTV Satlink Team'
                   const publishDate = isWordPress 
                     ? formatDate(post.date)
                     : staticFormatDate(post.date)
@@ -135,12 +135,12 @@ export default async function Blog() {
                 Blog Posts Coming Soon
               </h2>
               <p className="text-gray-600 max-w-xs sm:max-w-2xl mx-auto text-sm sm:text-base">
-                We're working on bringing you the latest SA-IPTV news, guides, and updates. 
+                We're working on bringing you the latest IPTV Satlink news, guides, and updates. 
                 Check back soon for exciting content about streaming technology and entertainment.
               </p>
               <div className="mt-6">
                 <span className="inline-block px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-sm font-medium">
-                  ⚠️ WordPress API not accessible - Check blog.sa-iptv.com
+                  ⚠️ WordPress API not accessible - Check blog.iptvsatlink.com
                 </span>
               </div>
             </div>
@@ -152,14 +152,14 @@ export default async function Blog() {
       <section className="py-12 sm:py-16 lg:py-20 bg-gray-50">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-4 sm:mb-6">
-            Stay Updated with SA-IPTV News
+            Stay Updated with IPTV Satlink News
           </h2>
           <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-xs sm:max-w-2xl mx-auto mb-6 sm:mb-8 leading-relaxed">
-            Get the latest updates about SA-IPTV services, streaming technology, 
+            Get the latest updates about IPTV Satlink services, streaming technology, 
             and exclusive offers.
           </p>
           <a 
-            href="https://wa.link/3hjbk3" 
+            href="https://wa.link/byh2yk" 
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-primary-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold hover:bg-primary-700 transition-colors inline-block"

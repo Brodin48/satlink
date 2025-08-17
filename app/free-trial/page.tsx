@@ -4,13 +4,13 @@ import Footer from '../../components/Footer'
 import { Play, CheckCircle, Tv, Smartphone, Monitor, Shield, Clock, Star, Zap, Users } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Free Trial - Start Your SA-IPTV Experience Today | Flex IPTV',
-  description: 'Start your FREE SA-IPTV trial now! Access 25,000+ live channels, 26,000+ movies & shows instantly. No credit card required. Experience premium IPTV streaming.',
-  keywords: 'SA-IPTV free trial, IPTV free trial, free IPTV test, SA-IPTV demo, premium IPTV trial, free streaming trial',
+  title: 'Free Trial - Start Your IPTV Satlink Experience Today | Flex IPTV',
+  description: 'Start your FREE IPTV Satlink trial now! Access 25,000+ live channels, 26,000+ movies & shows instantly. No credit card required. Experience premium IPTV streaming.',
+  keywords: 'IPTV Satlink free trial, IPTV free trial, free IPTV test, IPTV Satlink demo, premium IPTV trial, free streaming trial',
   openGraph: {
-    title: 'Free Trial - Start Your SA-IPTV Experience Today',
-    description: 'Access 25,000+ channels and 26,000+ movies with our FREE SA-IPTV trial. No credit card required!',
-    url: 'https://sa-iptv.io/free-trial/',
+    title: 'Free Trial - Start Your IPTV Satlink Experience Today',
+    description: 'Access 25,000+ channels and 26,000+ movies with our FREE IPTV Satlink trial. No credit card required!',
+    url: 'https://iptvsatlink.io/free-trial/',
   }
 }
 
@@ -24,7 +24,7 @@ export default function FreeTrialPage() {
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 sm:mb-8">
-              Start Your <span className="text-accent-400">FREE</span> SA-IPTV Trial
+              Start Your <span className="text-accent-400">FREE</span> IPTV Satlink Trial
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl mb-8 sm:mb-12 leading-relaxed">
               Experience premium entertainment with <strong>25,000+ live channels</strong> and <strong>26,000+ movies</strong>. 
@@ -34,7 +34,7 @@ export default function FreeTrialPage() {
             {/* Main CTA */}
             <div className="mb-12">
               <a 
-                href="https://wa.link/3hjbk3" 
+                href="https://wa.link/byh2yk" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-8 sm:px-12 py-4 sm:py-6 text-lg sm:text-xl font-bold rounded-xl shadow-2xl transform hover:scale-105 transition-all duration-300"
@@ -75,7 +75,7 @@ export default function FreeTrialPage() {
               What You Get With Your <span className="text-primary-600">FREE Trial</span>
             </h2>
             <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-              Experience everything SA-IPTV has to offer completely free. No hidden fees, no commitments.
+              Experience everything IPTV Satlink has to offer completely free. No hidden fees, no commitments.
             </p>
           </div>
 
@@ -178,7 +178,7 @@ export default function FreeTrialPage() {
           {/* Second CTA */}
           <div className="text-center mt-12 sm:mt-16">
             <a 
-              href="https://wa.link/3hjbk3" 
+              href="https://wa.link/byh2yk" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center bg-primary-600 hover:bg-primary-700 text-white px-8 sm:px-12 py-4 sm:py-6 text-lg sm:text-xl font-bold rounded-xl shadow-xl transform hover:scale-105 transition-all duration-300"
@@ -206,7 +206,7 @@ export default function FreeTrialPage() {
                 Is the trial really free?
               </h3>
               <p className="text-gray-600 pl-9">
-                Yes! Our SA-IPTV trial is completely free with no hidden charges. No credit card required to start.
+                Yes! Our IPTV Satlink trial is completely free with no hidden charges. No credit card required to start.
               </p>
             </div>
 
@@ -216,7 +216,7 @@ export default function FreeTrialPage() {
                 How long is the trial period?
               </h3>
               <p className="text-gray-600 pl-9">
-                You get full access to experience our premium SA-IPTV service and all features during the trial period.
+                You get full access to experience our premium IPTV Satlink service and all features during the trial period.
               </p>
             </div>
 
@@ -226,7 +226,7 @@ export default function FreeTrialPage() {
                 What devices are supported?
               </h3>
               <p className="text-gray-600 pl-9">
-                SA-IPTV works on Smart TVs, Android phones/tablets, iOS devices, Windows, Mac, Firestick, Android boxes, and more.
+                IPTV Satlink works on Smart TVs, Android phones/tablets, iOS devices, Windows, Mac, Firestick, Android boxes, and more.
               </p>
             </div>
 
@@ -251,11 +251,11 @@ export default function FreeTrialPage() {
               Ready to Experience Premium Entertainment?
             </h2>
             <p className="text-lg sm:text-xl mb-8 sm:mb-12">
-              Join thousands of satisfied customers who chose SA-IPTV for their entertainment needs.
+              Join thousands of satisfied customers who chose IPTV Satlink for their entertainment needs.
             </p>
             
             <a 
-              href="https://wa.link/3hjbk3" 
+              href="https://wa.link/byh2yk" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-8 sm:px-12 py-4 sm:py-6 text-lg sm:text-xl font-bold rounded-xl shadow-2xl transform hover:scale-105 transition-all duration-300 mb-8"

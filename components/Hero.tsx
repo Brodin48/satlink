@@ -17,18 +17,18 @@ export default function Hero() {
       <div className="container mx-auto px-4 py-12 sm:py-16 lg:py-20 relative z-10">
         <div className="text-center">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6 leading-tight">
-            Premium <span className="text-accent-400">SA-IPTV</span> Service
+            Premium <span className="text-accent-400">IPTV Satlink</span> Service
           </h1>
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 max-w-xs sm:max-w-2xl lg:max-w-3xl mx-auto leading-relaxed px-2">
-            Experience the best <strong>SA-IPTV</strong> service since 2019! Our premium <strong>SA-IPTV subscription</strong> 
-            offers 25,000+ Live TV Channels & 26,000+ Movies/TV Shows. Get instant <strong>SA-IPTV access</strong> 
-            <span className="hidden sm:inline"> with HD & 4K quality streaming. Join millions who trust SA-IPTV for ultimate entertainment.</span>
+            Experience the best <strong>IPTV Satlink</strong> service since 2019! Our premium <strong>IPTV Satlink subscription</strong> 
+            offers 25,000+ Live TV Channels & 26,000+ Movies/TV Shows. Get instant <strong>IPTV Satlink access</strong> 
+            <span className="hidden sm:inline"> with HD & 4K quality streaming. Join millions who trust IPTV Satlink for ultimate entertainment.</span>
             <span className="sm:hidden"> - your gateway to unlimited entertainment.</span>
           </p>
           
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-8 sm:mb-12 px-4">
             <a 
-              href="https://wa.link/3hjbk3" 
+              href="https://wa.link/byh2yk" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-primary-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold hover:bg-primary-700 transition-colors flex items-center justify-center"

@@ -7,7 +7,7 @@ const testNewWordPressAPI = async () => {
     const response = await fetch('https://blog-sa.iptv.com/wp-json/wp/v2/posts?per_page=1', {
       headers: {
         'Accept': 'application/json',
-        'User-Agent': 'SA-IPTV-Website/1.0'
+        'User-Agent': 'IPTV Satlink-Website/1.0'
       }
     })
     

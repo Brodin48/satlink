@@ -2,22 +2,22 @@
 
 /**
  * WordPress Integration Monitor
- * Monitors blog.sa-iptv.com WordPress API and provides deployment guidance
+ * Monitors blog.iptvsatlink.com WordPress API and provides deployment guidance
  */
 
 const { execSync } = require('child_process')
 
 async function checkWordPressStatus() {
-  console.log('🔍 SA-IPTV WordPress Integration Status')
+  console.log('🔍 IPTV Satlink WordPress Integration Status')
   console.log('======================================')
   console.log('')
 
   // Test DNS resolution
   console.log('1. DNS Resolution Test:')
   try {
-    const dns = execSync('nslookup blog.sa-iptv.com', { encoding: 'utf8' })
+    const dns = execSync('nslookup blog.iptvsatlink.com', { encoding: 'utf8' })
     if (dns.includes('NXDOMAIN')) {
-      console.log('   ❌ Domain blog.sa-iptv.com does not exist')
+      console.log('   ❌ Domain blog.iptvsatlink.com does not exist')
       console.log('   💡 You need to create this subdomain first')
     } else {
       console.log('   ✅ Domain resolves successfully')
@@ -30,7 +30,7 @@ async function checkWordPressStatus() {
   // Test HTTP connectivity
   console.log('2. HTTP Connectivity Test:')
   try {
-    const http = execSync('curl -I -m 10 https://blog.sa-iptv.com 2>/dev/null', { encoding: 'utf8' })
+    const http = execSync('curl -I -m 10 https://blog.iptvsatlink.com 2>/dev/null', { encoding: 'utf8' })
     if (http.includes('200')) {
       console.log('   ✅ WordPress site is accessible')
     } else if (http.includes('30')) {
@@ -39,20 +39,20 @@ async function checkWordPressStatus() {
       console.log('   ⚠️  Site accessible but may need configuration')
     }
   } catch (error) {
-    console.log('   ❌ Cannot connect to blog.sa-iptv.com')
+    console.log('   ❌ Cannot connect to blog.iptvsatlink.com')
   }
   console.log('')
 
   // Test WordPress API
   console.log('3. WordPress REST API Test:')
   try {
-    const api = execSync('curl -I -m 10 https://blog.sa-iptv.com/wp-json/wp/v2/posts 2>/dev/null', { encoding: 'utf8' })
+    const api = execSync('curl -I -m 10 https://blog.iptvsatlink.com/wp-json/wp/v2/posts 2>/dev/null', { encoding: 'utf8' })
     if (api.includes('200')) {
       console.log('   ✅ WordPress REST API is working!')
       
       // Test actual posts
       try {
-        const posts = execSync('curl -s -m 10 https://blog.sa-iptv.com/wp-json/wp/v2/posts?per_page=1 2>/dev/null', { encoding: 'utf8' })
+        const posts = execSync('curl -s -m 10 https://blog.iptvsatlink.com/wp-json/wp/v2/posts?per_page=1 2>/dev/null', { encoding: 'utf8' })
         const data = JSON.parse(posts)
         if (Array.isArray(data) && data.length > 0) {
           console.log(`   📄 Found ${data.length} posts - API fully functional!`)
@@ -89,7 +89,7 @@ async function checkWordPressStatus() {
   console.log('')
   
   console.log('If WordPress subdomain is NOT ready:')
-  console.log('1. Create subdomain: blog.sa-iptv.com')
+  console.log('1. Create subdomain: blog.iptvsatlink.com')
   console.log('2. Install WordPress on a PHP hosting provider')
   console.log('3. Ensure REST API is enabled (default in WordPress)')
   console.log('4. Add some blog posts')

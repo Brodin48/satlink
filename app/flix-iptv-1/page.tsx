@@ -1,13 +1,13 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Flix IPTV Pro Version | Advanced IPTV Player Features | SA-IPTV Compatible',
-  description: 'Flix IPTV Pro - Enhanced version with premium features. Advanced EPG, recording, multi-screen support. Perfect for SA-IPTV services.',
-  keywords: 'Flix IPTV Pro, advanced IPTV player, premium features, SA-IPTV, EPG, recording, multi-screen',
+  title: 'Flix IPTV Pro Version | Advanced IPTV Player Features | IPTV Satlink Compatible',
+  description: 'Flix IPTV Pro - Enhanced version with premium features. Advanced EPG, recording, multi-screen support. Perfect for IPTV Satlink services.',
+  keywords: 'Flix IPTV Pro, advanced IPTV player, premium features, IPTV Satlink, EPG, recording, multi-screen',
   openGraph: {
     title: 'Flix IPTV Pro | Advanced IPTV Streaming Solution',
-    description: 'Professional IPTV player with advanced features for power users. Enhanced SA-IPTV compatibility.',
-    url: 'https://sa-iptv.io/flix-iptv-1',
+    description: 'Professional IPTV player with advanced features for power users. Enhanced IPTV Satlink compatibility.',
+    url: 'https://iptvsatlink.io/flix-iptv-1',
     type: 'article',
   },
 }
@@ -179,7 +179,7 @@ export default function FlixIPTVProPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="https://wa.link/3hjbk3" 
+              href="https://wa.link/byh2yk" 
               className="bg-white text-indigo-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
             >
               Download Pro Version

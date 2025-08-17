@@ -92,7 +92,7 @@ export default function MoviesCarousel() {
         </div>
         
         <p className="text-center text-gray-300 mt-6 sm:mt-8 text-sm sm:text-base lg:text-lg">
-          Enjoy the latest movies and TV shows with your SA-IPTV subscription
+          Enjoy the latest movies and TV shows with your IPTV Satlink subscription
         </p>
       </div>
     </section>
