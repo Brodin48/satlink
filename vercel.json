@@ -1,4 +1,21 @@
 {
+  "redirects": [
+    {
+      "source": "/2016/10/aboutiptv.html",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/2016/10/contact-us.html",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/2016/10/howiptvworks.html",
+      "destination": "/blog/flix-iptv-complete-guide",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/sitemap.xml",
