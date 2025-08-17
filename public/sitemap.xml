@@ -8,77 +8,142 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://sa-iptv.io</loc>
-    <lastmod>2025-01-18</lastmod>
+    <loc>https://iptvsatlink.com</loc>
+    <lastmod>2025-08-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Main Pages -->
+  <!-- Main Service Pages -->
   <url>
-    <loc>https://sa-iptv.io/about</loc>
-    <lastmod>2025-01-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://sa-iptv.io/pricing</loc>
-    <lastmod>2025-01-18</lastmod>
+    <loc>https://iptvsatlink.com/pricing</loc>
+    <lastmod>2025-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://sa-iptv.io/contact</loc>
-    <lastmod>2025-01-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://iptvsatlink.com/free-trial</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://sa-iptv.io/blog</loc>
-    <lastmod>2025-01-18</lastmod>
+    <loc>https://iptvsatlink.com/blog</loc>
+    <lastmod>2025-08-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Apps & Downloads -->
+  <!-- IPTV Service Pages -->
   <url>
-    <loc>https://sa-iptv.io/apps/Windows_IPTV_Player_3.0.exe</loc>
-    <lastmod>2025-01-18</lastmod>
+    <loc>https://iptvsatlink.com/flix-iptv</loc>
+    <lastmod>2025-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://iptvsatlink.com/flix-iptv-1</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://iptvsatlink.com/flix-iptv-activation-smart-tv</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://iptvsatlink.com/ibo-iptv</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://iptvsatlink.com/duplex-iptv-activation</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://iptvsatlink.com/iptv-reseller</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Subscription Pages -->
+  <url>
+    <loc>https://iptvsatlink.com/aroma-iptv-subscription-for-12-months</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://iptvsatlink.com/bob-iptv-subscription-for-12-months-premium-package-3-months-free</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://iptvsatlink.com/falcon-iptv-subscription-for-12-months-supports-2-devices</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- App Downloads -->
+  <url>
+    <loc>https://iptvsatlink.com/apps/Windows_IPTV_Player_3.0.exe</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://iptvsatlink.com/apps/IpFoxTVSetup.exe</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Information Pages -->
+  <url>
+    <loc>https://iptvsatlink.com/about</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://iptvsatlink.com/contact</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://iptvsatlink.com/privacy-policy</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
   <!-- Blog Posts -->
   <url>
-    <loc>https://sa-iptv.io/blog/flix-iptv-complete-guide</loc>
-    <lastmod>2025-01-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- SEO-focused SA-IPTV.COM pages -->
-  <url>
-    <loc>https://sa-iptv.io/sa-iptv</loc>
-    <lastmod>2025-01-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://sa-iptv.io/sa-iptv-subscription</loc>
-    <lastmod>2025-01-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://sa-iptv.io/best-iptv-service</loc>
-    <lastmod>2025-01-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://iptvsatlink.com/blog/flix-iptv-complete-guide</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 
 </urlset>
