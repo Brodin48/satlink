@@ -9,7 +9,7 @@ export default function StructuredData() {
     "provider": {
       "@type": "Organization",
       "name": "Flex IPTV",
-      "url": "https://iptvsatlink.io"
+      "url": "https://iptvsatlink.com"
     },
     "areaServed": "Worldwide",
     "hasOfferCatalog": {
@@ -127,7 +127,7 @@ export default function StructuredData() {
       "highPrice": "199", 
       "priceCurrency": "USD",
       "availability": "https://schema.org/InStock",
-      "url": "https://iptvsatlink.io/pricing"
+      "url": "https://iptvsatlink.com/pricing"
     },
     "aggregateRating": {
       "@type": "AggregateRating",

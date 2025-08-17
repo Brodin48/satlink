@@ -1,7 +1,7 @@
 // WordPress API configuration with fallback support
 const WORDPRESS_API_URLS = {
   primary: 'https://blog-sa.iptv.com/wp-json/wp/v2',
-  fallback: 'https://blog.iptvsatlink.io/wp-json/wp/v2'
+  fallback: 'https://blog.iptvsatlink.com/wp-json/wp/v2'
 }
 
 // Current active API URL

@@ -3,7 +3,7 @@
 /**
  * IPTV Satlink Blog Migration Script
  * 
- * This script helps you migrate from blog.iptvsatlink.io to blog-sa.iptv.com
+ * This script helps you migrate from blog.iptvsatlink.com to blog-sa.iptv.com
  * and provides fallback functionality for seamless operation.
  */
 
@@ -11,7 +11,7 @@ const fs = require('fs').promises
 const path = require('path')
 
 const config = {
-  OLD_API: 'https://blog.iptvsatlink.io/wp-json/wp/v2',
+  OLD_API: 'https://blog.iptvsatlink.com/wp-json/wp/v2',
   NEW_API: 'https://blog-sa.iptv.com/wp-json/wp/v2',
   BACKUP_DIR: './backups',
   LIB_FILE: './lib/wordpress.ts'
@@ -228,7 +228,7 @@ async function main() {
   console.log('================================')
   
   // Test both endpoints
-  const oldAPIResult = await testAPIEndpoint(config.OLD_API, 'Old API (blog.iptvsatlink.io)')
+  const oldAPIResult = await testAPIEndpoint(config.OLD_API, 'Old API (blog.iptvsatlink.com)')
   const newAPIResult = await testAPIEndpoint(config.NEW_API, 'New API (blog-sa.iptv.com)')
   
   console.log('\n📊 Test Results Summary:')

@@ -1,5 +1,5 @@
 // WordPress API configuration
-const WORDPRESS_API_URL = 'https://blog.iptvsatlink.io/wp-json/wp/v2'
+const WORDPRESS_API_URL = 'https://blog.iptvsatlink.com/wp-json/wp/v2'
 
 export interface WordPressPost {
   id: number

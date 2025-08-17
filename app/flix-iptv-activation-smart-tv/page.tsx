@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'IPTV Satlink Activation for Smart TV | Complete Setup Guide',
     description: 'Activate IPTV Satlink on any Smart TV with our detailed guide. Start streaming thousands of channels today!',
-    url: 'https://iptvsatlink.io/flix-iptv-activation-smart-tv',
+    url: 'https://iptvsatlink.com/flix-iptv-activation-smart-tv',
     type: 'article',
   },
 }

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Download IpFoxTV Setup | Windows IPTV Player',
     description: 'Professional IPTV player for Windows. Download IpFoxTV Setup and enjoy IPTV Satlink on your PC.',
-    url: 'https://iptvsatlink.io/apps/IpFoxTVSetup.exe',
+    url: 'https://iptvsatlink.com/apps/IpFoxTVSetup.exe',
     type: 'website',
   },
 }

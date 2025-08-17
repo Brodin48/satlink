@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Flix IPTV Player | Ultimate IPTV Streaming App',
     description: 'Professional IPTV player with advanced features. Compatible with all IPTV Satlink services and major platforms.',
-    url: 'https://iptvsatlink.io/flix-iptv',
+    url: 'https://iptvsatlink.com/flix-iptv',
     type: 'article',
   },
 }

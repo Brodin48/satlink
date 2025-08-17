@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'IPTV Reseller Program - Start Your IPTV Satlink Business',
     description: 'Earn up to 70% commission with our IPTV Satlink reseller program. Premium IPTV business opportunity.',
-    url: 'https://iptvsatlink.io/iptv-reseller/',
+    url: 'https://iptvsatlink.com/iptv-reseller/',
   }
 }
 

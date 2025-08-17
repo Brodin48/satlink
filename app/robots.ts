@@ -8,10 +8,10 @@ export default function robots(): MetadataRoute.Robots {
       disallow: ['/private/', '/admin/'],
     },
     sitemap: [
-      'https://iptvsatlink.io/sitemap.xml',
-      'https://iptvsatlink.io/sitemap-pages.xml',
-      'https://iptvsatlink.io/sitemap-posts.xml',
-      'https://iptvsatlink.io/sitemap_index.xml'
+      'https://iptvsatlink.com/sitemap.xml',
+      'https://iptvsatlink.com/sitemap-pages.xml',
+      'https://iptvsatlink.com/sitemap-posts.xml',
+      'https://iptvsatlink.com/sitemap_index.xml'
     ],
   }
 }

@@ -23,7 +23,7 @@ A professional, SEO-optimized Next.js website for IPTV Satlink.COM streaming ser
 
 ## 🚀 Live Demo
 
-Visit the live website: [https://iptvsatlink.io](https://iptvsatlink.io)
+Visit the live website: [https://iptvsatlink.com](https://iptvsatlink.com)
 
 ## 📦 Installation
 
@@ -98,8 +98,8 @@ iptvsatlink/
 ### Environment Variables
 Create a `.env.local` file:
 ```env
-NEXT_PUBLIC_SITE_URL=https://iptvsatlink.io
-NEXT_PUBLIC_CONTACT_EMAIL=contact@iptvsatlink.io
+NEXT_PUBLIC_SITE_URL=https://iptvsatlink.com
+NEXT_PUBLIC_CONTACT_EMAIL=contact@iptvsatlink.com
 NEXT_PUBLIC_WHATSAPP_URL=https://wa.link/byh2yk
 ```
 
@@ -182,8 +182,8 @@ This project is proprietary software for IPTV Satlink.COM. All rights reserved.
 
 ## 📞 Support
 
-- **Website**: [https://iptvsatlink.io](https://iptvsatlink.io)
-- **Email**: contact@iptvsatlink.io
+- **Website**: [https://iptvsatlink.com](https://iptvsatlink.com)
+- **Email**: contact@iptvsatlink.com
 - **WhatsApp**: [Get Support](https://wa.link/byh2yk)
 - **Hours**: Mon-Sat 11:00am-10:00pm
 

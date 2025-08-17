@@ -23,8 +23,8 @@ export default function Contact() {
       icon: <Mail className="w-8 h-8" />,
       title: "Email Support",
       description: "Send us your IPTV Satlink service questions",
-      contact: "contact@iptvsatlink.io",
-      link: "mailto:contact@iptvsatlink.io",
+      contact: "contact@iptvsatlink.com",
+      link: "mailto:contact@iptvsatlink.com",
       available: "Response within 24h"
     },
     {

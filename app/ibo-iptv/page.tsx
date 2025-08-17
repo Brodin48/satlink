@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'IBO IPTV Player | Best IPTV App for All Devices',
     description: 'Professional IPTV player with full IPTV Satlink compatibility. Download for all devices and start streaming today!',
-    url: 'https://iptvsatlink.io/ibo-iptv',
+    url: 'https://iptvsatlink.com/ibo-iptv',
     type: 'article',
   },
 }

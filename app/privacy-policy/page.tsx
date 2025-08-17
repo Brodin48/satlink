@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Privacy Policy | IPTV Satlink',
     description: 'Your privacy matters to us. Read our comprehensive privacy policy.',
-    url: 'https://iptvsatlink.io/privacy-policy',
+    url: 'https://iptvsatlink.com/privacy-policy',
     type: 'website',
   },
 }
@@ -313,11 +313,11 @@ export default function PrivacyPolicyPage() {
                       <div className="space-y-3">
                         <div className="flex items-center">
                           <span className="text-blue-600 mr-3">📧</span>
-                          <span className="text-gray-600">privacy@iptvsatlink.io</span>
+                          <span className="text-gray-600">privacy@iptvsatlink.com</span>
                         </div>
                         <div className="flex items-center">
                           <span className="text-blue-600 mr-3">🌐</span>
-                          <span className="text-gray-600">iptvsatlink.io/contact</span>
+                          <span className="text-gray-600">iptvsatlink.com/contact</span>
                         </div>
                         <div className="flex items-center">
                           <span className="text-blue-600 mr-3">⏰</span>

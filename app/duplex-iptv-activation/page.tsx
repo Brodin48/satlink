@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Duplex IPTV Activation | Setup Guide for IPTV Satlink',
     description: 'Activate Duplex IPTV with IPTV Satlink in minutes. Complete setup guide for all devices.',
-    url: 'https://iptvsatlink.io/duplex-iptv-activation',
+    url: 'https://iptvsatlink.com/duplex-iptv-activation',
     type: 'article',
   },
 }

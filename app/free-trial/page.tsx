@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Free Trial - Start Your IPTV Satlink Experience Today',
     description: 'Access 25,000+ channels and 26,000+ movies with our FREE IPTV Satlink trial. No credit card required!',
-    url: 'https://iptvsatlink.io/free-trial/',
+    url: 'https://iptvsatlink.com/free-trial/',
   }
 }
 
