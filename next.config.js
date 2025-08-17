@@ -22,6 +22,17 @@ const nextConfig = {
         destination: '/blog/flix-iptv-complete-guide',
         permanent: true,
       },
+      // Additional legacy channel/content URLs
+      {
+        source: '/2017/02/de-it-nl-zdf-rai-sky-cinema-sky-select.html',
+        destination: '/pricing',
+        permanent: true,
+      },
+      {
+        source: '/2016/12/uk-usa-portugal-spain-m3u-vlc-list-tv.html',
+        destination: '/blog',
+        permanent: true,
+      },
       // Search query redirect
       {
         source: '/',
