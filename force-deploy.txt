@@ -1,1 +1,2 @@
-// Force deploy Sun Aug 17 17:36:13 +01 2025
+// Force deploy - Legacy URL redirects fixed - Sun Aug 17 22:21:00 +01 2025
+// Commit: 2a17828 - Added Vercel redirects for legacy URLs
