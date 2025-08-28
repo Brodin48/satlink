@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center mb-4 sm:mb-6">
               <img 
-                src="/images/logo.webp" 
+                src="/images/logo.svg" 
                 alt="IPTV Satlink Logo" 
                 className="w-16 h-16 sm:w-20 sm:h-20 object-contain"
               />

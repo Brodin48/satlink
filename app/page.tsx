@@ -17,11 +17,11 @@ export default function Home() {
       <Header />
       <Hero />
       <ChannelLogosCarousel />
+      <Pricing />
       <MoviesCarousel />
       <PostersMarquee />
       <Features />
       <SEOContent />
-      <Pricing />
       <Testimonials />
       <Footer />
     </main>

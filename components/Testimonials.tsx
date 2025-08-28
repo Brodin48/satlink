@@ -1,44 +1,79 @@
-import { Star, Quote } from 'lucide-react'
+'use client'
+
+import { useState, useEffect } from 'react'
+import { Star, Quote, ChevronLeft, ChevronRight } from 'lucide-react'
+
+interface TestimonialImage {
+  filename: string
+  path: string
+  id: string
+}
 
 export default function Testimonials() {
-  const testimonials = [
-    {
-      name: "Michael Schmidt",
-      country: "Germany",
-      rating: 5,
-      text: "I ordered it at 11pm, they activated it in less than 5 minutes. No regrets, Great image quality, Fast and professional service. I highly recommend it."
-    },
-    {
-      name: "Erik Larsson", 
-      country: "Norway",
-      rating: 5,
-      text: "Easy to set up, and convenient to use, super clear HD view and lots of European channels. IPTV folders are sorted elegantly. Keep up the good work!"
-    },
-    {
-      name: "Anna Andersson",
-      country: "Sweden", 
-      rating: 5,
-      text: "This is the best IPTV Satlink service, that I would recommend anyone to use. Staff are so friendly, Channels are working so great too."
-    },
-    {
-      name: "Lars Hansen",
-      country: "Norway",
-      rating: 5, 
-      text: "I was looking for a subscription and i have found IPTV Satlink, the service was great and the iptv is very good, I liked the quality and all my favorite football channels are in."
-    },
-    {
-      name: "James Wilson",
-      country: "UK",
-      rating: 5,
-      text: "Very great channel selection and VOD's, my family is very happy with the service for the last 2 years. the technical support is very responsive and supportive."
-    },
-    {
-      name: "Sami Virtanen", 
-      country: "Finland",
-      rating: 5,
-      text: "I recommend this IPTV Satlink Service for all those who love watching Soccer. FHD channels and real time live streaming that too at a great price tag, what else do we need?"
+  const [testimonials, setTestimonials] = useState<TestimonialImage[]>([])
+  const [currentIndex, setCurrentIndex] = useState(0)
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    async function loadTestimonials() {
+      try {
+        const response = await fetch('/api/testimonials')
+        const data = await response.json()
+        setTestimonials(data.testimonials || [])
+      } catch (error) {
+        console.error('Error loading testimonials:', error)
+        setTestimonials([])
+      } finally {
+        setLoading(false)
+      }
     }
-  ]
+
+    loadTestimonials()
+  }, [])
+
+  const nextTestimonial = () => {
+    setCurrentIndex((prev) => (prev + 1) % testimonials.length)
+  }
+
+  const prevTestimonial = () => {
+    setCurrentIndex((prev) => (prev - 1 + testimonials.length) % testimonials.length)
+  }
+
+  const goToTestimonial = (index: number) => {
+    setCurrentIndex(index)
+  }
+
+  if (loading) {
+    return (
+      <section id="testimonials" className="py-12 sm:py-16 lg:py-20 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="text-center">
+            <div className="animate-pulse">
+              <div className="h-8 bg-gray-300 rounded w-64 mx-auto mb-4"></div>
+              <div className="h-4 bg-gray-300 rounded w-96 mx-auto"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  if (testimonials.length === 0) {
+    return (
+      <section id="testimonials" className="py-12 sm:py-16 lg:py-20 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="text-center">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4 sm:mb-6">
+              What Our Customers Say
+            </h2>
+            <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-xs sm:max-w-2xl lg:max-w-3xl mx-auto leading-relaxed">
+              Customer testimonials will appear here automatically when images are added to the testimonials folder.
+            </p>
+          </div>
+        </div>
+      </section>
+    )
+  }
 
   return (
     <section id="testimonials" className="py-12 sm:py-16 lg:py-20 bg-gray-50">
@@ -48,38 +83,70 @@ export default function Testimonials() {
             What Our Customers Say
           </h2>
           <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-xs sm:max-w-2xl lg:max-w-3xl mx-auto leading-relaxed">
-            Don't just take our word for it. Here's what our satisfied customers 
-            from around the world have to say about our IPTV Satlink service.
+            Real testimonials from our satisfied customers around the world. 
+            These are genuine reviews from people who use our IPTV Satlink service.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-          {testimonials.map((testimonial, index) => (
-            <div key={index} className="testimonial-card bg-white p-5 sm:p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="flex items-center mb-4">
-                <Quote className="w-6 h-6 sm:w-8 sm:h-8 text-primary-500 mr-3 flex-shrink-0" />
-                <div className="flex space-x-1">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-400 fill-current" />
-                  ))}
-                </div>
-              </div>
-              
-              <p className="text-gray-700 mb-4 sm:mb-6 italic leading-relaxed text-sm sm:text-base">
-                "{testimonial.text}"
-              </p>
-              
-              <div className="flex items-center justify-between">
-                <div className="flex-1 min-w-0">
-                  <div className="font-semibold text-gray-800 text-sm sm:text-base truncate">{testimonial.name}</div>
-                  <div className="text-xs sm:text-sm text-gray-600">{testimonial.country}</div>
-                </div>
-                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary-500 rounded-full flex items-center justify-center text-white font-bold text-sm sm:text-base flex-shrink-0 ml-3">
-                  {testimonial.name.charAt(0)}
-                </div>
-              </div>
+        {/* Testimonial Carousel */}
+        <div className="relative max-w-4xl mx-auto">
+          {/* Main testimonial display */}
+          <div className="bg-white rounded-2xl shadow-xl p-6 sm:p-8 md:p-12 relative overflow-hidden">
+            {/* Background decoration */}
+            <div className="absolute top-0 right-0 w-32 h-32 bg-primary-100 rounded-full -mr-16 -mt-16 opacity-50"></div>
+            <div className="absolute bottom-0 left-0 w-24 h-24 bg-blue-100 rounded-full -ml-12 -mb-12 opacity-50"></div>
+            
+            {/* Quote icon */}
+            <Quote className="w-12 h-12 sm:w-16 sm:h-16 text-primary-500 mb-6 mx-auto opacity-20" />
+            
+            {/* Testimonial image */}
+            <div className="relative mb-6 sm:mb-8">
+              <img
+                src={testimonials[currentIndex].path}
+                alt={`Customer testimonial ${testimonials[currentIndex].id}`}
+                className="max-w-full h-auto mx-auto rounded-lg shadow-lg"
+                style={{
+                  maxHeight: '400px',
+                  objectFit: 'contain'
+                }}
+                loading="lazy"
+              />
             </div>
-          ))}
+
+            {/* Navigation arrows */}
+            <button
+              onClick={prevTestimonial}
+              className="absolute left-2 sm:left-4 top-1/2 transform -translate-y-1/2 bg-white/90 hover:bg-white text-gray-700 p-1 sm:p-2 rounded-full shadow-lg transition-all duration-200 hover:scale-110"
+              disabled={testimonials.length <= 1}
+            >
+              <ChevronLeft className="w-4 h-4 sm:w-5 sm:h-5" />
+            </button>
+            <button
+              onClick={nextTestimonial}
+              className="absolute right-2 sm:right-4 top-1/2 transform -translate-y-1/2 bg-white/90 hover:bg-white text-gray-700 p-1 sm:p-2 rounded-full shadow-lg transition-all duration-200 hover:scale-110"
+              disabled={testimonials.length <= 1}
+            >
+              <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5" />
+            </button>
+          </div>
+
+          {/* Dot indicators */}
+          {testimonials.length > 1 && (
+            <div className="flex justify-center mt-8 space-x-2">
+              {testimonials.map((_, index) => (
+                <button
+                  key={index}
+                  onClick={() => goToTestimonial(index)}
+                  className={`w-3 h-3 rounded-full transition-all duration-200 ${
+                    index === currentIndex
+                      ? 'bg-primary-600 scale-110'
+                      : 'bg-gray-300 hover:bg-gray-400'
+                  }`}
+                  aria-label={`Go to testimonial ${index + 1}`}
+                />
+              ))}
+            </div>
+          )}
         </div>
 
         {/* Trust indicators */}
@@ -98,6 +165,9 @@ export default function Testimonials() {
             </div>
             <div className="text-sm sm:text-base text-gray-600">
               <span className="font-semibold">99.9%</span> Uptime
+            </div>
+            <div className="text-sm sm:text-base text-gray-600">
+              <span className="font-semibold">{testimonials.length}</span> Real Reviews
             </div>
           </div>
         </div>

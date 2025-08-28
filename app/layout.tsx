@@ -39,8 +39,8 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/favicon.svg', type: 'image/svg+xml' },
-      { url: '/favicon.ico' }
+      { url: '/images/logo.svg', type: 'image/svg+xml' },
+      { url: '/images/favicon.ico' }
     ]
   }
 }
@@ -53,9 +53,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/logo.svg" type="image/svg+xml" />
+        <link rel="icon" href="/images/favicon.ico" sizes="any" />
+        <link rel="icon" href="/images/favicon.ico" />
       </head>
       <body className={inter.className}>
         {children}
