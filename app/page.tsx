@@ -1,10 +1,12 @@
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import ChannelLogosCarousel from '../components/ChannelLogosCarousel'
+import SportsChannels from '../components/SportsChannels'
 import MediaShowcase from '../components/MediaShowcase'
 import Features from '../components/Features'
 import SEOContent from '../components/SEOContent'
 import Pricing from '../components/Pricing'
+import LifetimePricing from '../components/LifetimePricing'
 import Testimonials from '../components/Testimonials'
 import Footer from '../components/Footer'
 import StructuredData from '../components/StructuredData'
@@ -65,9 +67,19 @@ export default function Home() {
         <StructuredData />
         <Header />
         <Hero />
-        <main className="max-w-8xl mx-auto px-8 sm:px-12 lg:px-16">
+        <main className="max-w-8xl mx-auto px-0 sm:px-8 lg:px-12 xl:px-16">
           <ChannelLogosCarousel />
+        </main>
+        <main className="max-w-8xl mx-auto px-0 sm:px-8 lg:px-12 xl:px-16">
+          <SportsChannels />
+        </main>
+        <main className="max-w-8xl mx-auto px-0 sm:px-8 lg:px-12 xl:px-16">
           <Pricing />
+        </main>
+        <main className="max-w-8xl mx-auto px-0 sm:px-8 lg:px-12 xl:px-16">
+          <LifetimePricing />
+        </main>
+        <main className="max-w-8xl mx-auto px-0 sm:px-8 lg:px-12 xl:px-16">
           <MediaShowcase />
           <Features />
           <SEOContent />

@@ -96,11 +96,11 @@ a:focus {
 }
 
 .animate-scroll-infinite {
-  animation: scroll-infinite 40s linear infinite;
+  animation: scroll-infinite 25s linear infinite;
 }
 
 .animate-scroll-infinite-reverse {
-  animation: scroll-infinite-reverse 45s linear infinite;
+  animation: scroll-infinite-reverse 30s linear infinite;
 }
 
 @keyframes scroll-infinite-reverse {
@@ -115,11 +115,11 @@ a:focus {
 /* Mobile optimizations */
 @media (max-width: 640px) {
   .animate-scroll-infinite {
-    animation-duration: 30s;
+    animation-duration: 20s;
   }
   
   .animate-scroll-infinite-reverse {
-    animation-duration: 35s;
+    animation-duration: 25s;
   }
 }
 

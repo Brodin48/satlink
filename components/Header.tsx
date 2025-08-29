@@ -22,8 +22,8 @@ export default function Header() {
 
   return (
     <header className="absolute top-0 left-0 right-0 z-50 w-full flex justify-center">
-      <div className="w-full max-w-8xl mx-auto px-8 sm:px-12 lg:px-16 py-4">
-        <div className="bg-white/90 backdrop-blur-sm shadow-lg rounded-lg border border-gray-200/50 px-6 sm:px-8 lg:px-12">
+      <div className="w-full max-w-8xl mx-auto px-0 sm:px-8 lg:px-12 xl:px-16 py-4">
+        <div className="bg-white/90 backdrop-blur-sm shadow-lg rounded-none sm:rounded-lg border-0 sm:border border-gray-200/50 px-4 sm:px-6 lg:px-8 xl:px-12">
           <div className="flex justify-between items-center py-3 sm:py-4">
             {/* Logo */}
             <div className="flex items-center">

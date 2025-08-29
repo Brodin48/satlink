@@ -138,17 +138,6 @@ export default function WhatsAppWidget() {
         )}
       </div>
 
-      {/* Mobile-only: WhatsApp Bar */}
-      <div className="md:hidden fixed bottom-0 left-0 right-0 bg-green-600 text-white p-4 z-40">
-        <button 
-          onClick={openWhatsApp}
-          className="w-full flex items-center justify-center space-x-3 bg-green-700 hover:bg-green-800 py-3 rounded-lg transition-colors"
-        >
-          <Phone className="w-5 h-5" />
-          <span className="font-semibold">Chat with IPTV Satlink Support</span>
-        </button>
-      </div>
-
       {/* Custom Styles */}
       <style jsx>{`
         @keyframes fade-in-up {
