@@ -35,8 +35,22 @@ export default function Features() {
   ]
 
   return (
-    <section id="features" className="py-12 sm:py-16 lg:py-20 bg-gray-50">
-      <div className="container mx-auto px-4">
+    <section id="features" className="py-12 sm:py-16 lg:py-20 relative">
+      {/* Section-specific background elements */}
+      <div className="absolute inset-0 pointer-events-none overflow-hidden">
+        <img 
+          src="/images/background/line-red-top (2).png" 
+          alt="" 
+          className="absolute top-16 right-16 w-20 sm:w-26 lg:w-32 opacity-15 mix-blend-soft-light"
+        />
+        <img 
+          src="/images/background/frame (1).svg" 
+          alt="" 
+          className="absolute bottom-16 left-16 w-14 sm:w-18 lg:w-22 opacity-12 mix-blend-overlay"
+        />
+      </div>
+      
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4 sm:mb-6">
             Why Choose Our <span className="text-primary-600">IPTV Satlink</span> Service?

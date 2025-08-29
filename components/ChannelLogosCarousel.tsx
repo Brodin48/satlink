@@ -5,7 +5,7 @@ export default function ChannelLogosCarousel() {
   const logos = Array.from({ length: 17 }, (_, i) => `/images/logos/${i + 1}.webp`)
   
   return (
-    <section className="py-12 sm:py-16 bg-gray-50">
+    <section className="py-12 sm:py-16">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8 sm:mb-12">
           Available on 25,000+ Premium Channels

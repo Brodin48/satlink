@@ -2,7 +2,7 @@ import { CheckCircle, Star, Zap, Shield } from 'lucide-react'
 
 export default function SEOContent() {
   return (
-    <section className="py-12 sm:py-16 lg:py-20 bg-white">
+    <section className="py-12 sm:py-16 lg:py-20">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           {/* Main SEO Content */}

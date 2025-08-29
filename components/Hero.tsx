@@ -10,17 +10,37 @@ export default function Hero() {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        backgroundAttachment: 'scroll' // Changed from fixed for mobile compatibility
+        backgroundAttachment: 'scroll'
       }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>
+      
+      {/* Additional decorative elements */}
+      <div className="absolute inset-0 pointer-events-none">
+        <img 
+          src="/images/background/section-curve.png" 
+          alt="" 
+          className="absolute bottom-0 left-0 w-full opacity-20"
+        />
+        <img 
+          src="/images/background/line-red-top (2).png" 
+          alt="" 
+          className="absolute top-20 right-20 w-48 sm:w-64 lg:w-80 opacity-30"
+        />
+        <img 
+          src="/images/background/feedback-circle (1).svg" 
+          alt="" 
+          className="absolute top-1/4 left-10 w-32 sm:w-40 lg:w-48 opacity-25 animate-pulse"
+        />
+      </div>
+
       <div className="container mx-auto px-4 py-12 sm:py-16 lg:py-20 relative z-10">
         <div className="text-center">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6 leading-tight">
             Premium <span className="text-accent-400">IPTV Satlink</span> Service
           </h1>
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 max-w-xs sm:max-w-2xl lg:max-w-3xl mx-auto leading-relaxed px-2">
-            Experience the best <strong>IPTV Satlink</strong> service since 2019! Our premium <strong>IPTV Satlink subscription</strong> 
+            Experience the best <strong>IPTV Satlink</strong> service since 2019! Our premium <strong>IPTV Satlink subscription</strong>{' '}
             offers 25,000+ Live TV Channels & 26,000+ Movies/TV Shows. Get instant <strong>IPTV Satlink access</strong> 
             <span className="hidden sm:inline"> with HD & 4K quality streaming. Join millions who trust IPTV Satlink for ultimate entertainment.</span>
             <span className="sm:hidden"> - your gateway to unlimited entertainment.</span>

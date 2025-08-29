@@ -45,7 +45,7 @@ export default function Testimonials() {
 
   if (loading) {
     return (
-      <section id="testimonials" className="py-12 sm:py-16 lg:py-20 bg-gray-50">
+      <section id="testimonials" className="py-12 sm:py-16 lg:py-20">
         <div className="container mx-auto px-4">
           <div className="text-center">
             <div className="animate-pulse">
@@ -60,7 +60,7 @@ export default function Testimonials() {
 
   if (testimonials.length === 0) {
     return (
-      <section id="testimonials" className="py-12 sm:py-16 lg:py-20 bg-gray-50">
+      <section id="testimonials" className="py-12 sm:py-16 lg:py-20">
         <div className="container mx-auto px-4">
           <div className="text-center">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4 sm:mb-6">
@@ -76,7 +76,7 @@ export default function Testimonials() {
   }
 
   return (
-    <section id="testimonials" className="py-12 sm:py-16 lg:py-20 bg-gray-50">
+    <section id="testimonials" className="py-12 sm:py-16 lg:py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4 sm:mb-6">
