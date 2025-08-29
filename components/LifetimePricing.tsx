@@ -1,4 +1,4 @@
-import { Crown, Check, Star, Sparkles } from 'lucide-react'
+import { Crown, Check, Star, Sparkles, Target, X } from 'lucide-react'
 
 export default function LifetimePricing() {
   return (
@@ -27,14 +27,52 @@ export default function LifetimePricing() {
             <Sparkles className="w-6 h-6 text-[#ff0766] ml-2" />
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Lifetime Access Plan
+            Stop The Money Drain
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Pay once, own forever. No monthly fees, no renewals, just unlimited entertainment.
+            Why pay for multiple subscriptions when you can get everything in one place?
           </p>
         </div>
 
-        <div className="max-w-md mx-auto">
+        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          {/* Traditional Streaming Column */}
+          <div className="bg-gray-100 rounded-xl p-6 relative">
+            {/* Wrong Option X */}
+            <div className="absolute -top-3 -right-3 bg-red-500 text-white rounded-full p-2 shadow-lg">
+              <X className="w-5 h-5" />
+            </div>
+            
+            <div className="text-center mb-6">
+              <h3 className="text-2xl font-bold text-gray-800 mb-2">Traditional Streaming</h3>
+              <p className="text-gray-600 text-sm">Never-ending subscriptions</p>
+            </div>
+
+            <div className="space-y-4 mb-6">
+              <div className="flex justify-between items-center py-2 border-b border-gray-300">
+                <span className="text-gray-700">Netflix Premium</span>
+                <span className="font-bold text-gray-900">$1,080</span>
+              </div>
+              <div className="flex justify-between items-center py-2 border-b border-gray-300">
+                <span className="text-gray-700">Disney+ Bundle</span>
+                <span className="font-bold text-gray-900">$840</span>
+              </div>
+              <div className="flex justify-between items-center py-2 border-b border-gray-300">
+                <span className="text-gray-700">HBO Max</span>
+                <span className="font-bold text-gray-900">$900</span>
+              </div>
+              <div className="flex justify-between items-center py-2 border-b border-gray-300">
+                <span className="text-gray-700">Cable/Satellite</span>
+                <span className="font-bold text-gray-900">$4,800</span>
+              </div>
+            </div>
+
+            <div className="text-center pt-4 border-t-2 border-gray-400">
+              <p className="text-sm text-gray-600 mb-2">5-Year Total</p>
+              <p className="text-3xl font-bold text-red-600">$7,620</p>
+            </div>
+          </div>
+
+          {/* IPTV NOMAD Column */}
           <div className="relative">
             {/* Crown decoration */}
             <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-20">
@@ -46,53 +84,51 @@ export default function LifetimePricing() {
             {/* Glow effect */}
             <div className="absolute inset-0 bg-[#ff0766]/20 rounded-xl blur-xl"></div>
             
-            <div className="relative bg-white rounded-xl shadow-xl border-2 border-[#ff0766] p-8 pt-10">
-              {/* Popular Badge */}
-              <div className="flex items-center justify-center mb-6">
-                <div className="bg-[#ff0766] text-white px-4 py-2 rounded-full text-sm font-bold flex items-center shadow-lg">
-                  <Star className="w-4 h-4 mr-2" />
-                  LIFETIME DEAL
+            <div className="relative bg-white rounded-xl shadow-xl border-2 border-[#ff0766] p-6 pt-8">
+              <div className="text-center mb-6">
+                <div className="bg-[#ff0766] text-white px-4 py-2 rounded-full text-sm font-bold inline-flex items-center shadow-lg mb-4">
+                  <Target className="w-4 h-4 mr-2" />
+                  IPTV SATLINK
+                </div>
+                <h3 className="text-2xl font-bold text-gray-800 mb-2">One Payment</h3>
+                <p className="text-gray-600 text-sm">Years of content</p>
+              </div>
+
+              <div className="space-y-3 mb-6">
+                <div className="flex items-center">
+                  <Check className="w-5 h-5 text-green-500 mr-3 flex-shrink-0" />
+                  <span className="text-gray-700 font-medium">25,000+ Live Channels</span>
+                </div>
+                <div className="flex items-center">
+                  <Check className="w-5 h-5 text-green-500 mr-3 flex-shrink-0" />
+                  <span className="text-gray-700 font-medium">66,000+ Movies & Series</span>
+                </div>
+                <div className="flex items-center">
+                  <Check className="w-5 h-5 text-green-500 mr-3 flex-shrink-0" />
+                  <span className="text-gray-700 font-medium">All Sports & Premium</span>
+                </div>
+                <div className="flex items-center">
+                  <Check className="w-5 h-5 text-green-500 mr-3 flex-shrink-0" />
+                  <span className="text-gray-700 font-medium">4K/HD Quality</span>
                 </div>
               </div>
 
-              <div className="text-center mb-8">
-                <div className="flex items-center justify-center mb-2">
-                  <span className="text-5xl font-bold text-gray-900">$199</span>
-                  <div className="ml-3">
-                    <div className="text-lg text-gray-400 line-through">$2,388</div>
-                    <div className="text-xs text-gray-500">10 years</div>
-                  </div>
-                </div>
-                <p className="text-gray-600 font-medium">One-time payment forever</p>
-                <div className="mt-3 bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-bold inline-block">
-                  Save $2,189 (92% OFF)
+              <div className="text-center mb-6 pt-4 border-t border-gray-200">
+                <p className="text-sm text-gray-600 mb-2">Lifetime Access</p>
+                <p className="text-4xl font-bold text-[#ff0766] mb-2">$289.99</p>
+                
+                <div className="bg-green-100 text-green-800 px-4 py-3 rounded-lg mb-4">
+                  <p className="font-bold text-lg">SAVE $7,330!</p>
+                  <p className="text-sm">That's 96.2% savings</p>
                 </div>
               </div>
 
-              <div className="space-y-4 mb-8">
-                {[
-                  'All 25,000+ Premium Channels',
-                  '4K/8K Ultra HD Quality',
-                  'All Sports & Live Events Forever',
-                  'Complete Movie & Series Library',
-                  'Unlimited Multi-Device Access',
-                  'VIP Priority Support',
-                  'All Future Updates Included',
-                  'Zero Monthly Fees Ever'
-                ].map((feature, index) => (
-                  <div key={index} className="flex items-center">
-                    <Check className="w-5 h-5 text-green-500 mr-3 flex-shrink-0" />
-                    <span className="text-gray-700 font-medium">{feature}</span>
-                  </div>
-                ))}
-              </div>
-
-              <button className="w-full bg-[#ff0766] hover:bg-[#e6065c] text-white font-bold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg text-lg">
-                Secure Lifetime Access
+              <button className="w-full bg-[#ff0766] hover:bg-[#e6065c] text-white font-bold py-4 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg text-lg mb-4">
+                Stop The Money Drain Now →
               </button>
               
-              <p className="text-xs text-gray-500 text-center mt-4">
-                ⚡ Limited offer • 30-day guarantee • No hidden fees
+              <p className="text-xs text-gray-500 text-center">
+                30-Day Guarantee • Instant Setup • 50k+ Users
               </p>
             </div>
           </div>
