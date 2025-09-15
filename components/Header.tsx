@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react'
 import { Menu, X, Mail, ChevronDown } from 'lucide-react'
+import Link from 'next/link'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -27,11 +28,13 @@ export default function Header() {
           <div className="flex justify-between items-center py-3 sm:py-4">
             {/* Logo */}
             <div className="flex items-center">
-              <img 
-                src="/images/logo.svg" 
-                alt="IPTV Satlink Logo" 
-                className="h-6 sm:h-8 lg:h-10 w-auto object-contain"
-              />
+              <Link href="/" className="flex items-center hover:opacity-80 transition-opacity">
+                <img 
+                  src="/images/logo.svg" 
+                  alt="IPTV Satlink Logo" 
+                  className="h-6 sm:h-8 lg:h-10 w-auto object-contain"
+                />
+              </Link>
             </div>
 
             {/* Contact Information - Desktop */}
@@ -73,6 +76,9 @@ export default function Header() {
                     </a>
                     <a href="/blog" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-colors">
                       Blog
+                    </a>
+                    <a href="/setup-guide" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-colors">
+                      Setup Guide
                     </a>
                     <a href="#features" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-colors">
                       Features
@@ -141,6 +147,9 @@ export default function Header() {
                   </a>
                   <a href="/blog" className="block text-gray-700 hover:text-primary-600 py-2 transition-colors">
                     Blog
+                  </a>
+                  <a href="/setup-guide" className="block text-gray-700 hover:text-primary-600 py-2 transition-colors">
+                    Setup Guide
                   </a>
                   <a href="#features" className="block text-gray-700 hover:text-primary-600 py-2 transition-colors">
                     Features
