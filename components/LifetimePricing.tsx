@@ -36,39 +36,45 @@ export default function LifetimePricing() {
 
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {/* Traditional Streaming Column */}
-          <div className="bg-gray-100 rounded-xl p-6 relative">
-            {/* Wrong Option X */}
-            <div className="absolute -top-3 -right-3 bg-red-500 text-white rounded-full p-2 shadow-lg">
-              <X className="w-5 h-5" />
+          <div className="bg-gray-100 rounded-xl p-6 relative overflow-hidden">
+            {/* Large X drawn across the entire table using SVG */}
+            <div className="absolute inset-0 pointer-events-none z-10 flex items-center justify-center">
+              <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <line x1="10" y1="10" x2="90" y2="90" stroke="#ef4444" strokeWidth="0.8" opacity="0.8"/>
+                <line x1="90" y1="10" x2="10" y2="90" stroke="#ef4444" strokeWidth="0.8" opacity="0.8"/>
+              </svg>
             </div>
             
-            <div className="text-center mb-6">
-              <h3 className="text-2xl font-bold text-gray-800 mb-2">Traditional Streaming</h3>
-              <p className="text-gray-600 text-sm">Never-ending subscriptions</p>
-            </div>
+            {/* Content with overlay to show it's "crossed out" */}
+            <div className="relative z-0 opacity-70">
+              <div className="text-center mb-6">
+                <h3 className="text-2xl font-bold text-gray-800 mb-2">Traditional Streaming</h3>
+                <p className="text-gray-600 text-sm">Never-ending subscriptions</p>
+              </div>
 
-            <div className="space-y-4 mb-6">
-              <div className="flex justify-between items-center py-2 border-b border-gray-300">
-                <span className="text-gray-700">Netflix Premium</span>
-                <span className="font-bold text-gray-900">$1,080</span>
+              <div className="space-y-4 mb-6">
+                <div className="flex justify-between items-center py-2 border-b border-gray-300">
+                  <span className="text-gray-700">Netflix Premium</span>
+                  <span className="font-bold text-gray-900">$1,080</span>
+                </div>
+                <div className="flex justify-between items-center py-2 border-b border-gray-300">
+                  <span className="text-gray-700">Disney+ Bundle</span>
+                  <span className="font-bold text-gray-900">$840</span>
+                </div>
+                <div className="flex justify-between items-center py-2 border-b border-gray-300">
+                  <span className="text-gray-700">HBO Max</span>
+                  <span className="font-bold text-gray-900">$900</span>
+                </div>
+                <div className="flex justify-between items-center py-2 border-b border-gray-300">
+                  <span className="text-gray-700">Cable/Satellite</span>
+                  <span className="font-bold text-gray-900">$4,800</span>
+                </div>
               </div>
-              <div className="flex justify-between items-center py-2 border-b border-gray-300">
-                <span className="text-gray-700">Disney+ Bundle</span>
-                <span className="font-bold text-gray-900">$840</span>
-              </div>
-              <div className="flex justify-between items-center py-2 border-b border-gray-300">
-                <span className="text-gray-700">HBO Max</span>
-                <span className="font-bold text-gray-900">$900</span>
-              </div>
-              <div className="flex justify-between items-center py-2 border-b border-gray-300">
-                <span className="text-gray-700">Cable/Satellite</span>
-                <span className="font-bold text-gray-900">$4,800</span>
-              </div>
-            </div>
 
-            <div className="text-center pt-4 border-t-2 border-gray-400">
-              <p className="text-sm text-gray-600 mb-2">5-Year Total</p>
-              <p className="text-3xl font-bold text-red-600">$7,620</p>
+              <div className="text-center pt-4 border-t-2 border-gray-400">
+                <p className="text-sm text-gray-600 mb-2">5-Year Total</p>
+                <p className="text-3xl font-bold text-red-600">$7,620</p>
+              </div>
             </div>
           </div>
 

@@ -1,21 +1,24 @@
-import Header from '../components/Header'
-import Hero from '../components/Hero'
-import ChannelLogosCarousel from '../components/ChannelLogosCarousel'
-import SportsChannels from '../components/SportsChannels'
-import MediaShowcase from '../components/MediaShowcase'
-import Features from '../components/Features'
-import SEOContent from '../components/SEOContent'
-import Pricing from '../components/Pricing'
-import LifetimePricing from '../components/LifetimePricing'
-import Testimonials from '../components/TestimonialsNew'
-import WhatsAppTestimonials from '../components/WhatsAppTestimonials'
-import Footer from '../components/Footer'
-import StructuredData from '../components/StructuredData'
+import SetupGuide from '../../components/SetupGuide'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
 
-export default function Home() {
+export const metadata = {
+  title: 'Complete IPTV Setup Guide - IPTV Satlink | Easy Installation Instructions',
+  description: 'Step-by-step IPTV Satlink setup guide for all devices. Learn how to install and configure IPTV Satlink on Android, iOS, Firestick, Smart TV, MAG Box, and PC/Mac.',
+  keywords: 'IPTV Satlink setup, IPTV installation, TiviMate setup, IPTV Smarters Pro, Firestick IPTV, Smart TV IPTV, MAG Box setup, IPTV configuration',
+  openGraph: {
+    title: 'Complete IPTV Setup Guide - IPTV Satlink',
+    description: 'Easy step-by-step instructions to setup IPTV Satlink on any device. Get streaming in minutes.',
+    url: 'https://iptvsatlink.com/setup-guide',
+    siteName: 'IPTV Satlink',
+    type: 'article',
+  }
+}
+
+export default function SetupGuidePage() {
   return (
     <div className="min-h-screen relative overflow-hidden">
-      {/* Background decorative elements - Using only provided files */}
+      {/* Background decorative elements */}
       <div className="fixed inset-0 pointer-events-none z-0">
         <img 
           src="/images/background/hero-right-top (2).png" 
@@ -65,29 +68,9 @@ export default function Home() {
       </div>
       
       <div className="relative z-10">
-        <StructuredData />
         <Header />
-        <Hero />
-        <main className="max-w-8xl mx-auto px-0 sm:px-8 lg:px-12 xl:px-16">
-          <ChannelLogosCarousel />
-        </main>
-        <main className="max-w-8xl mx-auto px-0 sm:px-8 lg:px-12 xl:px-16">
-          <SportsChannels />
-        </main>
-        <main className="max-w-8xl mx-auto px-0 sm:px-8 lg:px-12 xl:px-16">
-          <Pricing />
-        </main>
-        <main className="max-w-8xl mx-auto px-0 sm:px-8 lg:px-12 xl:px-16">
-          <LifetimePricing />
-        </main>
-        <main className="max-w-8xl mx-auto px-0 sm:px-8 lg:px-12 xl:px-16">
-          <MediaShowcase />
-          <Features />
-          <SEOContent />
-        </main>
-        <WhatsAppTestimonials />
-        <main className="max-w-8xl mx-auto px-0 sm:px-8 lg:px-12 xl:px-16">
-          <Testimonials />
+        <main className="pt-24 sm:pt-28 lg:pt-32">
+          <SetupGuide />
         </main>
         <Footer />
       </div>
